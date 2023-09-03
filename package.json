@@ -1,0 +1,18 @@
+{
+  "name": "aws-cognito-cognito-saml-next-js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "prebuild": "pnpm -r install"
+  },
+  "packageManager": "pnpm@8.7.1",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.7.1",
+    
+    "node": ">=18.0.0"
+  }
+}

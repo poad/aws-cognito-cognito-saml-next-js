@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  checks: write
+  contents: write
+  deployments: none
+  id-token: write
+  issues: none
+  packages: none
+  pull-requests: write
+  repository-projects: read
+  security-events: write
+  statuses: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        run_install: |
+          - recursive: true
+            args: [--no-frozen-lockfile]
+          - args: [--global, aws-cdk]
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3.8.1
+      with:
+        node-version: ${{ matrix.node-version }}
+        check-latest: true
+        cache: pnpm
+
+    - name: build
+      run: pnpm -r build
