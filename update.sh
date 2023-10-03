@@ -21,7 +21,7 @@ echo ""
 pwd
 if ! (pnpm install -r && pnpm up -r && pnpm -r build) ; then
   cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 
 cd "${CURRENT}" || exit
@@ -33,7 +33,7 @@ fi
 
 if ! (git pull --prune && git commit -am "Bumps node modules" && git push); then
   cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 
 cd "${CUR}" || exit
