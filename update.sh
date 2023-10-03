@@ -19,7 +19,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-if ! pnpm install -r && pnpm up -r && pnpm -r build ; then
+if ! (pnpm install -r && pnpm up -r && pnpm -r build) ; then
   cd "${CUR}" || exit
   exit $result
 fi
@@ -31,7 +31,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 
-if ! git pull --prune && git commit -am "Bumps node modules" && git push; then
+if ! (git pull --prune && git commit -am "Bumps node modules" && git push); then
   cd "${CUR}" || exit
   exit $result
 fi
