@@ -22,9 +22,9 @@
     "@swc/helpers": "^0.5.3",
     "@types/aws-lambda": "^8.10.124",
     "@types/node": "^20.8.6",
-    "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@typescript-eslint/parser": "^6.7.5",
-    "aws-cdk": "^2.101.0",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "aws-cdk": "^2.101.1",
     "eslint": "^8.51.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-prettier": "^9.0.0",
@@ -38,8 +38,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.428.0",
-    "aws-cdk-lib": "^2.101.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.429.0",
+    "aws-cdk-lib": "^2.101.1",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
