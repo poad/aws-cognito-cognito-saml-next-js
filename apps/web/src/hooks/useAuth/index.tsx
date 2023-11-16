@@ -1,26 +1,47 @@
 import React, { useEffect } from 'react';
-import { Auth } from 'aws-amplify';
-import { AmplifyUser } from '@aws-amplify/ui';
+import {
+  fetchAuthSession,
+  AuthUser,
+  getCurrentUser,
+  FetchUserAttributesOutput,
+  fetchUserAttributes,
+} from 'aws-amplify/auth';
+import { AuthEventData } from '@aws-amplify/ui';
+import { useAuthenticator } from '@aws-amplify/ui-react';
 
 const useAuth = (): {
-  user: AmplifyUser | undefined;
-  token: string | undefined;
+  user?: AuthUser;
+  token?: string;
+  attributes?: FetchUserAttributesOutput;
+  signOut: (data?: AuthEventData | undefined) => void;
 } => {
-  const [user, setUser] = React.useState<AmplifyUser | undefined>();
+  const [user, setUser] = React.useState<AuthUser | undefined>();
   const [token, setToken] = React.useState<string | undefined>(undefined);
+  const [attributes, setAttributes] = React.useState<
+    FetchUserAttributesOutput | undefined
+  >();
+  const {
+    signOut,
+  } = useAuthenticator((context) => [
+    context.signOut,
+  ]);
 
   const handleAuth = async () => {
     try {
-      await Auth.currentSession().then((session) =>
-        setToken(session.getIdToken().getJwtToken()),
-      );
+      const { idToken } = (await fetchAuthSession()).tokens ?? {};
+      setToken(idToken?.toString());
 
-      await Auth.currentAuthenticatedUser().then((currentUser) => {
+      await getCurrentUser().then((currentUser) => {
         setUser(currentUser);
+      });
+
+      await fetchUserAttributes().then((attr) => {
+        setAttributes(attr);
       });
     } catch (e) {
       setToken(undefined);
       setUser(undefined);
+      setAttributes(undefined);
     }
   };
 
@@ -31,6 +52,8 @@ const useAuth = (): {
   return {
     user,
     token,
+    attributes,
+    signOut,
   };
 };
 

@@ -4,10 +4,10 @@ import appConfig from '../../app-config';
 import crypto from 'crypto';
 
 const AuthButton = (): JSX.Element => {
-  const domain = appConfig.auth.oauth.domain;
+  const domain = appConfig.Auth?.Cognito.loginWith?.oauth?.domain;
   const idpName = appConfig.identityProviderName;
-  const loginRedirectUrl = appConfig.auth.oauth.redirectSignIn;
-  const clientAppId = appConfig.auth.userPoolWebClientId;
+  const loginRedirectUrl = appConfig.Auth?.Cognito.loginWith?.oauth?.redirectSignIn;
+  const clientAppId = appConfig.Auth?.Cognito.userPoolClientId;
 
   const onClick = (): void => {
     const hash = crypto

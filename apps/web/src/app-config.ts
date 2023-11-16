@@ -1,6 +1,37 @@
+import { ResourcesConfig } from '@aws-amplify/core';
+
 const appConfig = {
   identityProviderName: 'AzureAD',
-  auth: {
+  Auth: {
+    Cognito: {
+      // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
+      identityPoolId: process.env.NEXT_PUBLIC_AWS_COGNITO_ID_POOL_ID,
+
+      // OPTIONAL - Amazon Cognito User Pool ID
+      userPoolId: process.env.NEXT_PUBLIC_AWS_COGNITO_USER_POOL_ID,
+
+      // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
+      userPoolClientId: process.env.NEXT_PUBLIC_AWS_WEB_CLIENT_ID,
+
+      loginWith: {
+        oauth: {
+          domain: process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_DOMAIN,
+          scopes: [
+            'email',
+            'profile',
+            'openid',
+            'aws.cognito.signin.user.admin',
+          ],
+          redirectSignIn: [
+            process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNIN,
+          ],
+          redirectSignOut: [
+            process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNOUT,
+          ],
+          responseType: 'code',
+        },
+      },
+    },
     // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
     identityPoolId: process.env.NEXT_PUBLIC_AWS_COGNITO_ID_POOL_ID,
 
@@ -55,6 +86,6 @@ const appConfig = {
       responseType: 'token',
     },
   },
-};
+} as ResourcesConfig & { identityProviderName: string };
 
 export default appConfig;
