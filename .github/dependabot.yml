@@ -13,7 +13,7 @@ updates:
       - poad
 
   - package-ecosystem: npm
-    directory: '/apps/infra/aws'
+    directory: '/infra/aws'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -29,7 +29,7 @@ updates:
           - "*"
 
   - package-ecosystem: npm
-    directory: '/apps/infra/azuread'
+    directory: '/infra/azuread'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -44,7 +44,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: npm
-    directory: '/apps/web/'
+    directory: '/app/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
