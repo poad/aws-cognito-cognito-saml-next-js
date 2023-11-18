@@ -1,7 +1,37 @@
 import { ResourcesConfig } from '@aws-amplify/core';
 
+type AmplifyConfig = {
+  aws_cognito_region: string;
+  aws_user_pools_id: string;
+  aws_cognito_identity_pool_id: string;
+  aws_user_pools_web_client_id: string;
+  aws_mandatory_sign_in: string;
+  oauth?: {
+    domain: string;
+    scope: string[];
+    redirectSignIn: string;
+    redirectSignOut: string;
+    responseType: string;
+  },
+  federationTarget: string;
+};
+
 const appConfig = {
+  aws_cognito_region: 'us-west-2',
+  aws_user_pools_id: process.env.NEXT_PUBLIC_AWS_COGNITO_USER_POOL_ID,
+  aws_cognito_identity_pool_id: process.env.NEXT_PUBLIC_AWS_COGNITO_ID_POOL_ID,
+  aws_user_pools_web_client_id: process.env.NEXT_PUBLIC_AWS_WEB_CLIENT_ID,
+  aws_mandatory_sign_in: 'enable',
   identityProviderName: 'AzureAD',
+  oauth: {
+    domain: process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_DOMAIN,
+    scope: ['email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
+    redirectSignIn: process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNIN,
+    redirectSignOut:
+      process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNOUT,
+    responseType: 'token',
+  },
+  federationTarget: 'AzureAD',
   Auth: {
     Cognito: {
       // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
@@ -86,6 +116,6 @@ const appConfig = {
       responseType: 'token',
     },
   },
-} as ResourcesConfig & { identityProviderName: string };
+} as ResourcesConfig & AmplifyConfig;
 
 export default appConfig;

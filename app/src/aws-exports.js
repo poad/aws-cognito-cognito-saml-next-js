@@ -1,9 +1,4 @@
-import { Amplify, Auth } from 'aws-amplify';
 import appConfig from './app-config';
-
-Amplify.configure({
-  Auth: appConfig.auth,
-});
 
 export default appConfig;
 

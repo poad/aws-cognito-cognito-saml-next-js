@@ -1,35 +1,26 @@
 import React from 'react';
+
+import { signInWithRedirect } from 'aws-amplify/auth';
+
 import { Button } from '@mui/material';
 import appConfig from '../../app-config';
 import crypto from 'crypto';
 
 const AuthButton = (): JSX.Element => {
-  const domain = appConfig.Auth?.Cognito.loginWith?.oauth?.domain;
-  const idpName = appConfig.identityProviderName;
-  const loginRedirectUrl = appConfig.Auth?.Cognito.loginWith?.oauth?.redirectSignIn;
-  const clientAppId = appConfig.Auth?.Cognito.userPoolClientId;
+  const idpName = appConfig.federationTarget;
 
-  const onClick = (): void => {
+  const onClick = async (): Promise<void> => {
     const hash = crypto
       .createHash('sha1')
       .update(Buffer.from(new Date().getTime().toString()))
       .digest('hex');
-    const endpoint = `https://${domain}/oauth2/authorize`;
-    const parms = Object.entries({
-      ['identity_provider']: idpName,
-      ['redirect_uri']: loginRedirectUrl,
-      ['response_type']: 'token',
-      ['client_id']: clientAppId,
-      ['scope']: 'openid+profile+aws.cognito.signin.user.admin',
-      ['state']: hash,
-    })
-      .map((entry) => `${entry[0]}=${entry[1]}`)
-      .reduce((acc, cur) => `${acc}&${cur}`);
 
-    const uri = `${endpoint}?${parms}`;
-    if (window !== undefined) {
-      window.location.href = uri;
-    }
+    await signInWithRedirect({
+      provider: {
+        custom: idpName,
+      },
+      customState: hash
+    });
   };
 
   return (

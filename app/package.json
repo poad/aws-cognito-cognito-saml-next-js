@@ -18,9 +18,11 @@
     "all": "pnpm install && pnpm lint && pnpm build"
   },
   "dependencies": {
+    "@aws-amplify/adapter-nextjs": "^1.0.3",
     "@aws-amplify/core": "^6.0.3",
     "@aws-amplify/ui": "^6.0.1",
     "@aws-amplify/ui-react": "^6.0.2",
+    "@aws-sdk/client-cognito-identity": "^3.454.0",
     "@emotion/react": "^11.11.1",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -33,12 +35,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.0.3",
     "@types/node": "^20.9.1",
     "@types/react": "^18.2.37",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^14.0.3",
     "eslint-config-prettier": "^9.0.0",
