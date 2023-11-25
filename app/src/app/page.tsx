@@ -14,8 +14,8 @@ Amplify.configure(awsconfig);
 function Home(): JSX.Element {
   const auth = useAuth();
 
-  return auth?.token !== undefined ? (
-    auth?.user !== undefined ? (
+  return auth?.token ? (
+    auth?.user ? (
       <>
         <Box sx={{ width: '20rem', mt: '3rem' }}>
           <Button onClick={auth.signOut}>Sign Out</Button>
