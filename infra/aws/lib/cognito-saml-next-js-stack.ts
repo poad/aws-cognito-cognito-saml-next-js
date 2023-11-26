@@ -157,7 +157,7 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
       this,
       'CognitoDefaultUnauthenticatedRole',
       {
-        roleName: `${environment}-console-unauth-role`,
+        roleName: `${environment}-saml-next-js-unauth-role`,
         assumedBy: new iam.FederatedPrincipal(
           'cognito-identity.amazonaws.com',
           {
@@ -193,7 +193,7 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
       this,
       'CognitoDefaultAuthenticatedRole',
       {
-        roleName: `${environment}-console-auth-role`,
+        roleName: `${environment}-saml-next-js-auth-role`,
         assumedBy: new iam.FederatedPrincipal(
           'cognito-identity.amazonaws.com',
           {
