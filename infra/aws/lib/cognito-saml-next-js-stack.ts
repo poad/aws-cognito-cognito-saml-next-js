@@ -55,6 +55,7 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
         minLength: 8,
       },
       accountRecovery: cognito.AccountRecovery.EMAIL_ONLY,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
     });
 
     userPool.addDomain('UserPoolDomain', {
@@ -63,45 +64,37 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
       },
     });
 
-    const idpName = identityProviderMetadataURL
-      ? new cognito.CfnUserPoolIdentityProvider(
-          this,
-          'CfnCognitoSamlIdPAzureAD',
-          {
-            providerName: 'AzureAD',
-            providerDetails: {
-              MetadataURL: identityProviderMetadataURL,
-            },
-            providerType: 'SAML',
-            attributeMapping: {
-              email:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress',
-              email_verified:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/email_verified',
-              family_name:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname',
-              given_name:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname',
-              name: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
-              username:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
-              preferredUsername:
-                'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
-            },
-            userPoolId: userPool.userPoolId,
-          }
-        ).providerName
-      : undefined;
-
-    if (idpName !== undefined) {
-      userPool.registerIdentityProvider(
-        cognito.UserPoolIdentityProvider.fromProviderName(
-          this,
-          'CognitoSamlIdPAzureAD',
-          idpName
-        )
-      );
-      cognito.UserPoolClientIdentityProvider.custom(idpName);
+    if (identityProviderMetadataURL) {
+      new cognito.UserPoolIdentityProviderSaml(this, 'CognitoSamlIdPAzureAD', {
+        name: 'AzureAD',
+        metadata: {
+          metadataType: cognito.UserPoolIdentityProviderSamlMetadataType.URL,
+          metadataContent: identityProviderMetadataURL,
+        },
+        attributeMapping: {
+          email: cognito.ProviderAttribute.other(
+            'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'
+          ),
+          custom: {
+            name: cognito.ProviderAttribute.other(
+              'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
+            ),
+            email_verified: cognito.ProviderAttribute.other(
+              'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/email_verified'
+            ),
+          },
+          familyName: cognito.ProviderAttribute.other(
+            'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname'
+          ),
+          givenName: cognito.ProviderAttribute.other(
+            'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname'
+          ),
+          preferredUsername: cognito.ProviderAttribute.other(
+            'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
+          ),
+        },
+        userPool,
+      });
     }
 
     const client = new cognito.UserPoolClient(this, 'CognitoSamlAppClient', {
