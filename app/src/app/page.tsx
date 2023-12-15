@@ -5,7 +5,7 @@ import { Box } from '@mui/system';
 import { Amplify } from 'aws-amplify';
 import { Button } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import awsconfig from '../aws-exports';
+import awsconfig from '../app-config';
 import AuthButton from '../components/AuthButton';
 import useAuth from '../hooks/useAuth';
 

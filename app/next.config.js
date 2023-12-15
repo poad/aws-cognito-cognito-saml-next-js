@@ -2,7 +2,6 @@
 const config = {
   output: "export",
   reactStrictMode: true,
-  swcMinify: true,
   compiler: {
     emotion: true,
   },
