@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "@cdktf/provider-azuread": "^12.0.0",
-    "cdktf": "^0.20.1",
+    "cdktf": "^0.20.2",
     "constructs": "^10.3.0"
   },
   "devDependencies": {
     "@swc/core": "^1.3.105",
     "@swc/helpers": "^0.5.3",
-    "@types/node": "^20.11.5",
+    "@types/node": "^20.11.6",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "eslint": "^8.56.0",
