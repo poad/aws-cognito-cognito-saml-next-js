@@ -21,7 +21,7 @@
     "@aws-amplify/core": "^6.0.21",
     "@aws-amplify/ui": "^6.0.12",
     "@aws-amplify/ui-react": "^6.1.6",
-    "@aws-sdk/client-cognito-identity": "^3.535.0",
+    "@aws-sdk/client-cognito-identity": "^3.540.0",
     "@emotion/react": "^11.11.4",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
+    "@types/react": "^18.2.69",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
