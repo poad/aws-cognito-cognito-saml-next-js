@@ -1,3 +1,4 @@
 packages:
-  - './infra/**'
+  - './infra/aws'
+  - './infra/azuread'
   - './app'

@@ -18,8 +18,6 @@
     "lint": "pnpm prettier-check && pnpm eslint-check",
     "lint-fix": "pnpm prettier-format && pnpm eslint-fix",
     "clean": "rimraf build",
-    "prelint": "pnpm install",
-    "prebuild": "pnpm install",
     "all": "pnpm lint && pnpm build",
     "upgrade": "pnpm add \"cdktf@*\" \"cdktf-cli@*\"",
     "upgrade:next": "pnpm add cdktf@next cdktf-cli@next"
