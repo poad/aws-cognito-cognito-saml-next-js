@@ -179,8 +179,8 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
-  '@aws-amplify/plugin-types@0.9.0-beta.3':
-    resolution: {integrity: sha512-8qPoIGf4tg2xGFcZRPeLUpZoo6koNXJIZI3KtGvdgnoIfw4QqLxWKslzXqxNqvZtypVIiROfP1dWbgF2MHvxbA==}
+  '@aws-amplify/plugin-types@0.9.0':
+    resolution: {integrity: sha512-dOwuyjRWKHvKSxcCwycdBTb6clRr2/soW1hL+HaXyTN69+dQanQegpS6ylmVwbPPiy9q2LCbqaw+5Np7bacLgw==}
     peerDependencies:
       '@aws-sdk/types': ^3.465.0
       aws-cdk-lib: ^2.127.0
@@ -1293,8 +1293,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1602.0:
-    resolution: {integrity: sha512-DJ3JOqa8PHmwrZirIFbzpa4hlBvL/jz3RulNQL4FmzNX6IANiUKUTR4zw6tU9Sdt48YpsL0+xIyuBuxKmcLz7Q==}
+  aws-sdk@2.1603.0:
+    resolution: {integrity: sha512-AB54LyTODyiTKdtUzE0LzhnPbumYH3KhDstje8i4KfeBSGCeszTgq89YfOVpSy5twfu9WpsJ2cHOxlrlXn9cpg==}
     engines: {node: '>= 10.0.0'}
 
   babel-plugin-macros@3.1.0:
@@ -1341,8 +1341,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001611:
-    resolution: {integrity: sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==}
+  caniuse-lite@1.0.30001612:
+    resolution: {integrity: sha512-lFgnZ07UhaCcsSZgWW0K5j4e69dK1u/ltrL9lTUiFOwNHs12S3UMIEYgBV0Z6C6hRDev7iRnMzzYmKabYdXF9g==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -2275,7 +2275,7 @@ snapshots:
 
   '@aws-amplify/data-schema-types@0.7.17(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.138.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/plugin-types': 0.9.0-beta.3(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.138.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.9.0(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.138.0(constructs@10.3.0))(constructs@10.3.0)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - '@aws-sdk/types'
@@ -2301,7 +2301,7 @@ snapshots:
       lodash: 4.17.21
       tslib: 2.6.2
 
-  '@aws-amplify/plugin-types@0.9.0-beta.3(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.138.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-amplify/plugin-types@0.9.0(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.138.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
       '@aws-sdk/types': 3.387.0
       aws-cdk-lib: 2.138.0(constructs@10.3.0)
@@ -4201,12 +4201,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1602.0
+      aws-sdk: 2.1603.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1602.0:
+  aws-sdk@2.1603.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -4266,7 +4266,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001611: {}
+  caniuse-lite@1.0.30001612: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -4642,7 +4642,7 @@ snapshots:
       '@next/env': 14.2.2
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001611
+      caniuse-lite: 1.0.30001612
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
