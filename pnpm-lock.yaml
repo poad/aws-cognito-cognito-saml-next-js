@@ -15,10 +15,10 @@ importers:
         version: 6.0.28
       '@aws-amplify/ui':
         specifier: ^6.0.13
-        version: 6.0.13(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
+        version: 6.0.13(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
       '@aws-amplify/ui-react':
         specifier: ^6.1.8
-        version: 6.1.8(@types/react@18.3.0)(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)
+        version: 6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)
       '@aws-sdk/client-cognito-identity':
         specifier: ^3.563.0
         version: 3.563.0
@@ -41,8 +41,8 @@ importers:
         specifier: ^5.15.15
         version: 5.15.15(@emotion/react@11.11.4(@types/react@18.3.0)(react@18.3.0))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.0)(react@18.3.0))(@types/react@18.3.0)(react@18.3.0))(@types/react@18.3.0)(react@18.3.0)
       aws-amplify:
-        specifier: ^6.0.30
-        version: 6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+        specifier: ^6.1.4
+        version: 6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       next:
         specifier: ^14.2.3
         version: 14.2.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -147,19 +147,19 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
-  '@aws-amplify/api-graphql@4.0.29':
-    resolution: {integrity: sha512-VjgAMYxqs028s/y0F4neVJ7IPEQAvyacF6ftlH2cHL64HH/7ekeaFXMt87Eyl/r48lia8zyN3lRZCuw6dm6JIA==}
+  '@aws-amplify/api-graphql@4.0.30':
+    resolution: {integrity: sha512-P6H6a2cI7e8HcEVkydAp8WsXSIVvmB/TijGXfy3ErEnT0HW8Butl1K6jK2Yxe8qD7SBaYjcyewDOiOfUkYkk/g==}
 
   '@aws-amplify/api-rest@4.0.28':
     resolution: {integrity: sha512-X02Lbe9+7razFLZBi09GjP1Sb8vr2Ii4DOL8dk+G/CN4QyeWCYXs+2dcfHiouoSJNWIaPCMG4R0RgmWHUrgnVg==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
-  '@aws-amplify/api@6.0.29':
-    resolution: {integrity: sha512-YPmsweI4MewKGnx+vqjXaikpv5KnXg0722Y6DxAewBEB6n3S+xfN87C0WONODDgd0v3yjebCS3/pVTyaGcLaJw==}
+  '@aws-amplify/api@6.0.30':
+    resolution: {integrity: sha512-T/1+5oN5SKle0aXoBOjEdZoDl6uDrhQDfD1ob7zOuDtwC4CZIc4FrzK6wDsxICGXQ2dUeswnX/HpqTnftZMd/g==}
 
-  '@aws-amplify/auth@6.0.29':
-    resolution: {integrity: sha512-Bt1VQIB+RsLfKWxOZY4kYdLWGFBnJtzIjIj8sRauI7tfWFKHm4zoPuQqyiKi86cKvwL3jK3eKX8RYxdVbYdLyw==}
+  '@aws-amplify/auth@6.2.1':
+    resolution: {integrity: sha512-LvLVHCIu0w6bReD4l28AWQ9ZCXVKwPQ2cIyP3KQ+uRRgemL5O+7X2HJEeoe5rNwoa1VRTDEZiuBhJlkQVtnYsA==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -169,11 +169,11 @@ packages:
   '@aws-amplify/data-schema-types@0.10.0':
     resolution: {integrity: sha512-HIfSGPcqDu7ZyHzncGiTPDElOKl7N/ZGBF1T0RWlm7jqNVOl6AYzr9dMyPSw7/e8p5SxlKNxhUoyvo7iwkWXww==}
 
-  '@aws-amplify/data-schema@0.16.2':
-    resolution: {integrity: sha512-Ij9Lig1L+JCxWe1hX9MqSqbAGUpYnV+H7321dZlD2gBEPhnyzjm78bCXThvadM77EiMzE4DDn93q+fk5Dm8++Q==}
+  '@aws-amplify/data-schema@0.17.1':
+    resolution: {integrity: sha512-E9Iq68arbBCjtVg1vIrjQ7/WQ6cg4EzulPAJPBFHEFlF23p9XDT1gX2kSkm4u+X0Nptb3EaMdjYzpMz4WcO3Dg==}
 
-  '@aws-amplify/datastore@5.0.29':
-    resolution: {integrity: sha512-5TwvWxnvWN5+Pd5xaOowc/apmlyhv3KvL2dkHQdI/koBtboqibU7zcfC+LNhqjzZLdd2Pd2lXb7HTftxf3kIxQ==}
+  '@aws-amplify/datastore@5.0.30':
+    resolution: {integrity: sha512-VIFTCMQa0bjxk/F/ZCFVfXsv75c31o/xOgp77JZy3oPuan3XlQ0IBKoBYfld9xzxu5Xd3TON7dnyQNAUE/ynuw==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -189,8 +189,8 @@ packages:
       aws-cdk-lib: ^2.127.0
       constructs: ^10.0.0
 
-  '@aws-amplify/storage@6.0.28':
-    resolution: {integrity: sha512-OBd1FLW8b9GrGY00XWFyusW3ElbK7VUa+Qewk04OAEOTS4+bwwTZSjO/vIOB5VmRB4w+1K5EwaJIMva7T9kn0A==}
+  '@aws-amplify/storage@6.3.1':
+    resolution: {integrity: sha512-k8W89ySzzoXCCl3Vn2DZPj7bXEJkBUS8GTPKG7kvD/Cn6IQRupINqzDWSw9P47XE0tJzbp6evyn7NMVd1W5Hbg==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -1266,8 +1266,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.0.30:
-    resolution: {integrity: sha512-SUHkROj/MzN0H0K4GEy9K64ppxdxpNhiZBhtjsCJeZG2z/xs6r3h40qr/hcLox/AXcY3teKyXkA3DJXjHAT2VA==}
+  aws-amplify@6.1.4:
+    resolution: {integrity: sha512-FA+BVYbb9Pej4Md6vNiuUiXA9VZpQs4u5pzOhzfWgpsBZRE6Z0RMfMFg6tcW2dvSxjk2DX1s6l8v+9gqqKsA5Q==}
 
   aws-cdk-lib@2.139.0:
     resolution: {integrity: sha512-G9yoc+VFwF10kpgf4omtrAVmUNPeAP708oF5fc7XlRTzoTXMmAdUJW9cRGOMtAkFY83SxiJP0wm8n5Z9tjAdUA==}
@@ -2231,11 +2231,11 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.0.29(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-amplify/api-graphql@4.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/data-schema': 0.16.2(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/data-schema': 0.17.1(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -2250,9 +2250,9 @@ snapshots:
       '@aws-amplify/core': 6.0.28
       tslib: 2.6.2
 
-  '@aws-amplify/api@6.0.29(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-amplify/api@6.0.30(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.29(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/api-graphql': 4.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -2260,7 +2260,7 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/auth@6.0.29(@aws-amplify/core@6.0.28)':
+  '@aws-amplify/auth@6.2.1(@aws-amplify/core@6.0.28)':
     dependencies:
       '@aws-amplify/core': 6.0.28
       tslib: 2.6.2
@@ -2286,7 +2286,7 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/data-schema@0.16.2(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-amplify/data-schema@0.17.1(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
       '@aws-amplify/data-schema-types': 0.10.0(@aws-sdk/types@3.387.0)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       '@types/aws-lambda': 8.10.137
@@ -2296,9 +2296,9 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/datastore@5.0.29(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
+  '@aws-amplify/datastore@5.0.30(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/api': 6.0.29(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-amplify/core': 6.0.28
       buffer: 4.9.2
       idb: 5.0.6
@@ -2321,7 +2321,7 @@ snapshots:
       aws-cdk-lib: 2.139.0(constructs@10.3.0)
       constructs: 10.3.0
 
-  '@aws-amplify/storage@6.0.28(@aws-amplify/core@6.0.28)':
+  '@aws-amplify/storage@6.3.1(@aws-amplify/core@6.0.28)':
     dependencies:
       '@aws-amplify/core': 6.0.28
       '@aws-sdk/types': 3.398.0
@@ -2330,11 +2330,11 @@ snapshots:
       fast-xml-parser: 4.3.6
       tslib: 2.6.2
 
-  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.0)(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react@18.3.0)':
+  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react@18.3.0)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@18.3.0)(react@18.3.0)(xstate@4.38.3)
-      aws-amplify: 6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      aws-amplify: 6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       lodash: 4.17.21
       react: 18.3.0
       react-hook-form: 7.51.3(react@18.3.0)
@@ -2343,10 +2343,10 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.0)(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.0)(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react@18.3.0)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(react@18.3.0)
       '@radix-ui/react-direction': 1.0.0(react@18.3.0)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2357,15 +2357,15 @@ snapshots:
       react-dom: 18.3.0(react@18.3.0)
       tslib: 2.6.2
     optionalDependencies:
-      aws-amplify: 6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      aws-amplify: 6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.0.13(aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)':
+  '@aws-amplify/ui@6.0.13(aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0))(xstate@4.38.3)':
     dependencies:
-      aws-amplify: 6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      aws-amplify: 6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -4187,15 +4187,15 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.0.30(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0):
+  aws-amplify@6.1.4(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0):
     dependencies:
       '@aws-amplify/analytics': 7.0.28(@aws-amplify/core@6.0.28)
-      '@aws-amplify/api': 6.0.29(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
-      '@aws-amplify/auth': 6.0.29(@aws-amplify/core@6.0.28)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/auth': 6.2.1(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/datastore': 5.0.29(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
+      '@aws-amplify/datastore': 5.0.30(@aws-amplify/core@6.0.28)(aws-cdk-lib@2.139.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-amplify/notifications': 2.0.28(@aws-amplify/core@6.0.28)
-      '@aws-amplify/storage': 6.0.28(@aws-amplify/core@6.0.28)
+      '@aws-amplify/storage': 6.3.1(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-cdk-lib
