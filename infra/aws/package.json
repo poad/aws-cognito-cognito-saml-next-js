@@ -16,7 +16,7 @@
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@swc/core": "^1.5.22",
+    "@swc/core": "^1.5.24",
     "@swc/helpers": "^0.5.11",
     "@types/aws-lambda": "^8.10.138",
     "@types/node": "^20.12.13",
@@ -26,7 +26,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.583.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.587.0",
     "aws-cdk-lib": "^2.143.1",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
