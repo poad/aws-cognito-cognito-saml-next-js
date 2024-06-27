@@ -18,7 +18,7 @@
     "all": "pnpm install && pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.3.2",
+    "@aws-amplify/core": "^6.3.3",
     "@aws-amplify/ui": "^6.0.16",
     "@aws-amplify/ui-react": "^6.1.12",
     "@aws-sdk/client-cognito-identity": "^3.600.0",
@@ -28,13 +28,13 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "@mui/system": "^5.15.20",
-    "aws-amplify": "^6.3.7",
+    "aws-amplify": "^6.3.8",
     "next": "^14.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.14.9",
     "@types/react": "^18.3.3",
     "next-transpile-modules": "^10.0.1",
     "typescript": "^5.5.2"
