@@ -23,12 +23,12 @@
     "upgrade:next": "pnpm add cdktf@next cdktf-cli@next"
   },
   "dependencies": {
-    "@cdktf/provider-azuread": "^12.5.0",
+    "@cdktf/provider-azuread": "^12.6.1",
     "cdktf": "^0.20.7",
     "constructs": "^10.3.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.6.5",
+    "@swc/core": "^1.6.6",
     "@swc/helpers": "^0.5.11",
     "@types/node": "^20.14.9",
     "regenerator-runtime": "^0.14.1",
