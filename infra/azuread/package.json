@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@cdktf/provider-azuread": "^12.6.1",
-    "cdktf": "^0.20.7",
+    "cdktf": "^0.20.8",
     "constructs": "^10.3.0"
   },
   "devDependencies": {
@@ -33,6 +33,6 @@
     "@types/node": "^20.14.9",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   }
 }
