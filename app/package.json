@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@aws-amplify/core": "^6.3.4",
-    "@aws-amplify/ui": "^6.0.16",
-    "@aws-amplify/ui-react": "^6.1.12",
-    "@aws-sdk/client-cognito-identity": "^3.613.0",
+    "@aws-amplify/ui": "^6.0.17",
+    "@aws-amplify/ui-react": "^6.1.13",
+    "@aws-sdk/client-cognito-identity": "^3.614.0",
     "@emotion/react": "^11.11.4",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.5",
@@ -29,7 +29,7 @@
     "@mui/material": "^5.16.0",
     "@mui/system": "^5.16.0",
     "aws-amplify": "^6.4.0",
-    "next": "^14.2.4",
+    "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
