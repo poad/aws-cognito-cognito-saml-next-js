@@ -19,7 +19,7 @@
     "@swc/core": "^1.7.1",
     "@swc/helpers": "^0.5.12",
     "@types/aws-lambda": "^8.10.142",
-    "@types/node": "^20.14.12",
+    "@types/node": "^22.0.0",
     "aws-cdk": "^2.150.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
