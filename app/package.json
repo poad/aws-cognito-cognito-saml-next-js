@@ -21,7 +21,7 @@
     "@aws-amplify/core": "^6.3.7",
     "@aws-amplify/ui": "^6.0.17",
     "@aws-amplify/ui-react": "^6.1.14",
-    "@aws-sdk/client-cognito-identity": "^3.621.0",
+    "@aws-sdk/client-cognito-identity": "^3.622.0",
     "@emotion/react": "^11.13.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.13.0",
@@ -34,7 +34,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.0.2",
+    "@types/node": "^22.0.3",
     "@types/react": "^18.3.3",
     "next-transpile-modules": "^10.0.1",
     "typescript": "^5.5.4"
