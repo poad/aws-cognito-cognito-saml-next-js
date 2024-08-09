@@ -69,8 +69,8 @@ importers:
   infra/aws:
     dependencies:
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.625.0
-        version: 3.625.0
+        specifier: ^3.627.0
+        version: 3.627.0
       aws-cdk-lib:
         specifier: ^2.151.0
         version: 2.151.0(constructs@10.3.0)
@@ -238,8 +238,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-cognito-identity-provider@3.625.0':
-    resolution: {integrity: sha512-R633JVXkbLyySVQBKX/D2NfyayGPRbW/T4ZkZYKX11NurQTeGfCAl0jxE16F+7iW4IKkb7U6FgkjF6lYlin7og==}
+  '@aws-sdk/client-cognito-identity-provider@3.627.0':
+    resolution: {integrity: sha512-Gj4XufS2581hIXQWVGeiCqUM2ANsk2To81s05IiE7hbdy95ADYJMsKiPtcoF5agchOpClot4D6VrHACJcsMe4Q==}
     engines: {node: '>=16.0.0'}
 
   '@aws-sdk/client-cognito-identity@3.624.0':
@@ -1256,8 +1256,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1670.0:
-    resolution: {integrity: sha512-OvHPuCKubcp5u0xbfqxSYjGnNiK38ZF52Gsog185UgaO4LfGL51QXs974XLub4rztLa3/qOGynKI3bpFsbSQoA==}
+  aws-sdk@2.1671.0:
+    resolution: {integrity: sha512-dOtL61cWZDNNqgrXc+DP5ge8ARBv4HMM71XFLHSi2+1/24YUw3f6uc+0OVE7bVmUMxb6+3Xjsa04l8zhyB0sug==}
     engines: {node: '>= 10.0.0'}
 
   babel-plugin-macros@3.1.0:
@@ -1304,8 +1304,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001650:
-    resolution: {integrity: sha512-fgEc7hP/LB7iicdXHUI9VsBsMZmUmlVJeQP2qqQW+3lkqVhbmjEU8zp+h5stWeilX+G7uXuIUIIlWlDw9jdt8g==}
+  caniuse-lite@1.0.30001651:
+    resolution: {integrity: sha512-9Cf+Xv1jJNe1xPZLGuUXLNkE1BoDkqRqYyFJ9TDYSqhduqA4hu4oR9HluGoWYQC/aj8WHjsGVV+bwkh0+tegRg==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -2363,7 +2363,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.3
 
-  '@aws-sdk/client-cognito-identity-provider@3.625.0':
+  '@aws-sdk/client-cognito-identity-provider@3.627.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -4174,12 +4174,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1670.0
+      aws-sdk: 2.1671.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1670.0:
+  aws-sdk@2.1671.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -4239,7 +4239,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001650: {}
+  caniuse-lite@1.0.30001651: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -4622,7 +4622,7 @@ snapshots:
       '@next/env': 14.2.5
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001650
+      caniuse-lite: 1.0.30001651
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
