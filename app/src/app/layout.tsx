@@ -10,7 +10,7 @@ import {
   Drawer,
   IconButton,
   List,
-  ListItem,
+  ListItemButton,
   ListItemIcon,
   ListItemText,
   Toolbar,
@@ -96,8 +96,7 @@ const Layout = ({ children }: LayoutProps) => {
             <Divider />
             <List>
               {['Info'].map((text) => (
-                <ListItem
-                  button
+                <ListItemButton
                   key={text}
                   sx={{
                     width: drawerWidth,
@@ -113,7 +112,7 @@ const Layout = ({ children }: LayoutProps) => {
                     />
                   </ListItemIcon>
                   <ListItemText primary={text} />
-                </ListItem>
+                </ListItemButton>
               ))}
             </List>
           </Box>
