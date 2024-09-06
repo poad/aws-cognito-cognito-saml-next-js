@@ -28,9 +28,9 @@
     "constructs": "^10.3.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.22",
-    "@swc/helpers": "^0.5.12",
-    "@types/node": "^22.5.1",
+    "@swc/core": "^1.7.23",
+    "@swc/helpers": "^0.5.13",
+    "@types/node": "^22.5.4",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
