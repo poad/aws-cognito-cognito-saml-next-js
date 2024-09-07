@@ -169,8 +169,8 @@ packages:
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
 
-  '@aws-amplify/data-schema@1.4.0':
-    resolution: {integrity: sha512-aceVqoFxkWPflwSt24xl+vEpeKzmWC5DPdW9MDV9exdBj8hnbR4n4hsd8uiob3zEiNH4UcHHkVvstwhlyBp4Qg==}
+  '@aws-amplify/data-schema@1.5.0':
+    resolution: {integrity: sha512-AcKE1CycRNEcDnI5GGlzfcfxK/EWaeVOy6FR4bRzRCA8Jhg5XKLIKp46jrZfo1NuVOd33Fcdh1jTLWKklOpN2Q==}
 
   '@aws-amplify/datastore@5.0.49':
     resolution: {integrity: sha512-7ESzc1/5rOth3gPi65IJyx4dQbzRTvRxpefcA132C3vAm5BFqKEcDXyZX5sHbSf5OOMmQDsa68GfzhAM10rWPg==}
@@ -1163,6 +1163,9 @@ packages:
   '@types/aws-lambda@8.10.145':
     resolution: {integrity: sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==}
 
+  '@types/json-schema@7.0.15':
+    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
+
   '@types/node@22.5.4':
     resolution: {integrity: sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==}
 
@@ -1258,8 +1261,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1690.0:
-    resolution: {integrity: sha512-R8iaPaJzqmkw2vXVIDLrVsc9YDEdsqVjPBBbnoaxb4CgtmoDuSAPH9G3E2ttpYMX4pdwXNapzUvQUu3YNuhKvw==}
+  aws-sdk@2.1691.0:
+    resolution: {integrity: sha512-/F2YC+DlsY3UBM2Bdnh5RLHOPNibS/+IcjUuhP8XuctyrN+MlL+fWDAiela32LTDk7hMy4rx8MTgvbJ+0blO5g==}
     engines: {node: '>= 10.0.0'}
 
   babel-plugin-macros@3.1.0:
@@ -2043,7 +2046,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.47(@aws-amplify/core@6.4.0)
       '@aws-amplify/core': 6.4.0
-      '@aws-amplify/data-schema': 1.4.0
+      '@aws-amplify/data-schema': 1.5.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -2084,10 +2087,12 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.4.0':
+  '@aws-amplify/data-schema@1.5.0':
     dependencies:
       '@aws-amplify/data-schema-types': 1.1.1
+      '@smithy/util-base64': 3.0.0
       '@types/aws-lambda': 8.10.145
+      '@types/json-schema': 7.0.15
       rxjs: 7.8.1
 
   '@aws-amplify/datastore@5.0.49(@aws-amplify/core@6.4.0)':
@@ -3925,6 +3930,8 @@ snapshots:
 
   '@types/aws-lambda@8.10.145': {}
 
+  '@types/json-schema@7.0.15': {}
+
   '@types/node@22.5.4':
     dependencies:
       undici-types: 6.19.8
@@ -4011,12 +4018,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1690.0
+      aws-sdk: 2.1691.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.2
 
-  aws-sdk@2.1690.0:
+  aws-sdk@2.1691.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
