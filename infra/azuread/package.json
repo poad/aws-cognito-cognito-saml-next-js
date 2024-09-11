@@ -28,7 +28,7 @@
     "constructs": "^10.3.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.25",
+    "@swc/core": "^1.7.26",
     "@swc/helpers": "^0.5.13",
     "@types/node": "^22.5.4",
     "regenerator-runtime": "^0.14.1",
