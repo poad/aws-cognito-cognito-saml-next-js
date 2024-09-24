@@ -24,13 +24,13 @@
   },
   "dependencies": {
     "@cdktf/provider-azuread": "^12.6.1",
-    "cdktf": "^0.20.8",
+    "cdktf": "^0.20.9",
     "constructs": "^10.3.0"
   },
   "devDependencies": {
     "@swc/core": "^1.7.26",
     "@swc/helpers": "^0.5.13",
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.6.1",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
