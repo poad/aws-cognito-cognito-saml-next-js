@@ -18,23 +18,23 @@
     "all": "pnpm install && pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.4.3",
+    "@aws-amplify/core": "^6.4.4",
     "@aws-amplify/ui": "^6.6.2",
     "@aws-amplify/ui-react": "^6.5.2",
-    "@aws-sdk/client-cognito-identity": "^3.662.0",
+    "@aws-sdk/client-cognito-identity": "^3.666.0",
     "@emotion/react": "^11.13.3",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.2",
     "@mui/material": "^6.1.2",
     "@mui/system": "^6.1.2",
-    "aws-amplify": "^6.6.3",
+    "aws-amplify": "^6.6.4",
     "next": "^14.2.14",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "@types/react": "^18.3.11",
     "next-transpile-modules": "^10.0.1",
     "typescript": "^5.6.2"
