@@ -23,7 +23,7 @@
     "upgrade:next": "pnpm add cdktf@next cdktf-cli@next"
   },
   "dependencies": {
-    "@cdktf/provider-azuread": "^12.6.1",
+    "@cdktf/provider-azuread": "^13.0.0",
     "cdktf": "^0.20.9",
     "constructs": "^10.3.0"
   },
