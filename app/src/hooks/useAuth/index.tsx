@@ -38,7 +38,7 @@ const useAuth = (): {
       await fetchUserAttributes().then((attr) => {
         setAttributes(attr);
       });
-    } catch (e) {
+    } catch {
       setToken(undefined);
       setUser(undefined);
       setAttributes(undefined);

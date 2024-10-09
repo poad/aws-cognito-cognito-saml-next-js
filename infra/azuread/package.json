@@ -11,12 +11,8 @@
     "synth": "cdktf synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
-    "eslint-check": "eslint './src/**/*.{ts,js,tsx,jsx}'",
-    "eslint-fix": "eslint --fix './src/**/*.{ts,js,tsx,jsx}'",
-    "prettier-check": "prettier --check src",
-    "prettier-format": "prettier --write src",
-    "lint": "pnpm prettier-check && pnpm eslint-check",
-    "lint-fix": "pnpm prettier-format && pnpm eslint-fix",
+    "lint": "eslint './src/**/*.{ts,js,tsx,jsx}'",
+    "lint-fix": "eslint --fix './src/**/*.{ts,js,tsx,jsx}'",
     "clean": "rimraf build",
     "all": "pnpm lint && pnpm build",
     "upgrade": "pnpm add \"cdktf@*\" \"cdktf-cli@*\"",
@@ -33,6 +29,6 @@
     "@types/node": "^22.7.5",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   }
 }

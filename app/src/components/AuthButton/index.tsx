@@ -19,7 +19,7 @@ const AuthButton = (): JSX.Element => {
       provider: {
         custom: idpName,
       },
-      customState: hash
+      customState: hash,
     });
   };
 

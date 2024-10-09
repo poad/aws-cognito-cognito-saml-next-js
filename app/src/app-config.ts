@@ -1,5 +1,6 @@
 import { ResourcesConfig } from '@aws-amplify/core';
 
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 type AmplifyConfig = {
   aws_cognito_region: string;
   aws_user_pools_id: string;
