@@ -12,10 +12,10 @@
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.42",
+    "@swc/core": "^1.8.0",
     "@swc/helpers": "^0.5.13",
     "@types/aws-lambda": "^8.10.145",
-    "@types/node": "^22.8.7",
+    "@types/node": "^22.9.0",
     "aws-cdk": "^2.165.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
