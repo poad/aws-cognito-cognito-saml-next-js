@@ -48,14 +48,14 @@ importers:
   app:
     dependencies:
       '@aws-amplify/core':
-        specifier: ^6.5.3
-        version: 6.5.3
+        specifier: ^6.6.0
+        version: 6.6.0
       '@aws-amplify/ui':
         specifier: ^6.6.6
-        version: 6.6.6(@aws-amplify/core@6.5.3)(aws-amplify@6.8.2)(xstate@4.38.3)
+        version: 6.6.6(@aws-amplify/core@6.6.0)(aws-amplify@6.9.0)(xstate@4.38.3)
       '@aws-amplify/ui-react':
         specifier: ^6.6.0
-        version: 6.6.0(@aws-amplify/core@6.5.3)(@types/react@18.3.12)(aws-amplify@6.8.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
+        version: 6.6.0(@aws-amplify/core@6.6.0)(@types/react@18.3.12)(aws-amplify@6.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
       '@aws-sdk/client-cognito-identity':
         specifier: ^3.696.0
         version: 3.696.0
@@ -69,17 +69,17 @@ importers:
         specifier: ^11.13.5
         version: 11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
       '@mui/icons-material':
-        specifier: ^6.1.7
-        version: 6.1.7(@mui/material@6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
+        specifier: ^6.1.8
+        version: 6.1.8(@mui/material@6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
       '@mui/material':
-        specifier: ^6.1.7
-        version: 6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^6.1.8
+        version: 6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mui/system':
-        specifier: ^6.1.7
-        version: 6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
+        specifier: ^6.1.8
+        version: 6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
       aws-amplify:
-        specifier: ^6.8.2
-        version: 6.8.2
+        specifier: ^6.9.0
+        version: 6.9.0
       next:
         specifier: ^15.0.3
         version: 15.0.3(@babel/core@7.25.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -154,8 +154,8 @@ importers:
         specifier: ^3.696.0
         version: 3.696.0
       aws-cdk-lib:
-        specifier: ^2.167.2
-        version: 2.167.2(constructs@10.4.2)
+        specifier: ^2.168.0
+        version: 2.168.0(constructs@10.4.2)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -179,8 +179,8 @@ importers:
         specifier: ^22.9.1
         version: 22.9.1
       aws-cdk:
-        specifier: ^2.167.2
-        version: 2.167.2
+        specifier: ^2.168.0
+        version: 2.168.0
       regenerator-runtime:
         specifier: ^0.14.1
         version: 0.14.1
@@ -228,48 +228,48 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@aws-amplify/analytics@7.0.58':
-    resolution: {integrity: sha512-ptEVSJQa1GOXlBpSt5CFsAiOk/YaQMUg6ao15gnSwiblFPQO2D+YAFF4+qLteu7vOPJ14SRORJ1+DNvAad5v3w==}
+  '@aws-amplify/analytics@7.0.59':
+    resolution: {integrity: sha512-uXWPDGS4CDCmi1LdctRxo/XiTE8+SzGL3xGWKeMv25rF2/w6W9ZzM28v06HWbquMPVSA58SK/Gbmay4rn02y2Q==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api-graphql@4.6.1':
-    resolution: {integrity: sha512-w61bd/+GsuzWULF9S89hpNP63o4ys64IovEaOQmsgzP3MhhaXIUENMXoyjI3CpIBZ8gm5E0SebSzRNH6U9VqUQ==}
+  '@aws-amplify/api-graphql@4.6.2':
+    resolution: {integrity: sha512-PxGB4DdaNAv3dKOtDOHdDUziGQSyuYGUgb5C6KmPpeGUiUG/iDlRlofsDOfjzhwfWiDBgA1tpb9N6owOrkm1yA==}
 
-  '@aws-amplify/api-rest@4.0.58':
-    resolution: {integrity: sha512-eM1eXAREF5IxOxct4At4EjXeKSJy4AJ7lqCaBkJbyw+KyQ78Lz+AWwmyVxeQW5bDqI7l80UqySAM5VYNq6x8Mw==}
+  '@aws-amplify/api-rest@4.0.59':
+    resolution: {integrity: sha512-AoF25skwhoXcj0NQ8k5Ovz8BIWgPc72NvsvOLxXNtAHidzUxUvo4UW/Rlib/xAhZabxOxFuKEGGfdLkTJnOSlg==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api@6.1.3':
-    resolution: {integrity: sha512-31d6hQs9Tc35/rDC/C5zUA5rIoA5+TA7kPBbzIF+Vdl8FpwJHdlDILTLUUW1BnjTTmSMog7qiJLm8HJoPkYfeg==}
+  '@aws-amplify/api@6.1.4':
+    resolution: {integrity: sha512-E3B7VnDH5ono/qdFtAUUiva5UGL7ZDheOaa5w1+7jTMYChnr6d/M/DoOFRj7Zue+HxoF1N5GiK85mU2aH5oqAQ==}
 
-  '@aws-amplify/auth@6.6.2':
-    resolution: {integrity: sha512-HbxJYZ4U+HAkaw4YgdSPUZs2PJ7Cgc+e972wPOs9UWcJuya8IyLaPHY7eLcyp6ZxlFRq+bOkyqoMMRghCz3Hjw==}
+  '@aws-amplify/auth@6.7.0':
+    resolution: {integrity: sha512-WBN5mJTxuxv0RYynQhQUmHVYOhBES3k0yMN4KwCT/mtDaDr+tjAC1oIuvVIxtVUs5Ud1mybU3VzqPDO9GmB1ww==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/core@6.5.3':
-    resolution: {integrity: sha512-GqhYvrtZ71L1G8b0u3JEnPi5JXBM5bYhY4zGh4IxNW4XyhIaOiKt0XsKemC0hvXa60m4clSqVC8kKPrT/wVyew==}
+  '@aws-amplify/core@6.6.0':
+    resolution: {integrity: sha512-J/1P1c2Qog5xwJQjQl0sk80qMZKZReUqNXeLtxPtSTJ9quPW4cD41DkNl4cgQk2inmLnU/v56GEF6tUfwulZoQ==}
 
   '@aws-amplify/data-schema-types@1.2.0':
     resolution: {integrity: sha512-1hy2r7jl3hQ5J/CGjhmPhFPcdGSakfme1ZLjlTMJZILfYifZLSlGRKNCelMb3J5N9203hyeT5XDi5yR47JL1TQ==}
 
-  '@aws-amplify/data-schema@1.15.0':
-    resolution: {integrity: sha512-QJH88syxakfgn9J5x/o5JeGaCs5TZnzn459+rsN/+TDhGIT64ROL6b1nUgL7+niwLl7UUU3MrvW5A5xAvg3YEQ==}
+  '@aws-amplify/data-schema@1.16.0':
+    resolution: {integrity: sha512-pUgHG57bMQZ0gNrjc5HI2yuRTD3aCpVRm8d0I4unRz/felf8Llqx98AWN0U8o55O/VnIoj1OACOp42LFFA5dFA==}
 
-  '@aws-amplify/datastore@5.0.60':
-    resolution: {integrity: sha512-00N5/SmPH2QIizPMOvCG8JgFK5sR6uiL0ht0RAlc/dZwVC0OvTIX30Lx66WQrc0vUUY7MdzwxRBb7EEhiaJM/g==}
+  '@aws-amplify/datastore@5.0.61':
+    resolution: {integrity: sha512-NDqAz/rFQfV7ClIoNtq1IVUU/bYd+I23raGW/LmMYYnmdIRgdaKbtZX0j3IFZ53J/JLtisBsDLGCjt4KXNqqqA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/notifications@2.0.58':
-    resolution: {integrity: sha512-Z24ObV/9tCuUczJ/VajGeS4OJ5rkrztNAq9ErrowK6s7uA85HATG7w7LauUUlmTwhaoZhS46TFu6kC1OzuH4XA==}
+  '@aws-amplify/notifications@2.0.59':
+    resolution: {integrity: sha512-ilFYsafeI77fOxGwByCAta2xqNCvI77ruEz7aGGH57T2U2DvXUGReqMOJXoDum9TV3dwJR1ImKuBLnrArgRh3Q==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/storage@6.6.16':
-    resolution: {integrity: sha512-UcF1tsTQnrPqA1U0Oflz8x6KWQ+V7568UolhyXPuEICxWmt7Yi83iyoHHTy54bXDY/JMHN6o9du0Ox1qQx4S8g==}
+  '@aws-amplify/storage@6.7.0':
+    resolution: {integrity: sha512-twEQclYWOqbv2JrTy8jphfPoLk/N4QVjkJpnsUpyhu+oTtCw9qwqU8G4I9Fxv8U347r17azi4K9SjXn0Qzt6Gg==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
@@ -917,27 +917,27 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@mui/core-downloads-tracker@6.1.7':
-    resolution: {integrity: sha512-POuIBi80BZBogQkG4PQKIGwy4QFwB+kOr+OI4k7Znh7LqMAIhwB9OC00l6M+w1GrZJYj3T8R5WX8G6QAIvoVEw==}
+  '@mui/core-downloads-tracker@6.1.8':
+    resolution: {integrity: sha512-TGAvzwUg9hybDacwfIGFjI2bXYXrIqky+vMfaeay8rvT56/PNAlvIDUJ54kpT5KRc9AWAihOvtDI7/LJOThOmQ==}
 
-  '@mui/icons-material@6.1.7':
-    resolution: {integrity: sha512-RGzkeHNArIVy5ZQ12bq/8VYNeICEyngngsFskTJ/2hYKhIeIII3iRGtaZaSvLpXh7h3Fg3VKTulT+QU0w5K4XQ==}
+  '@mui/icons-material@6.1.8':
+    resolution: {integrity: sha512-6frsXcf1TcJKWevWwRup6V4L8lzI33cbHcAjT83YLgKw0vYRZKY0kjMI9fhrJZdRWXgFFgKKvEv3GjoxbqFF7A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      '@mui/material': ^6.1.7
+      '@mui/material': ^6.1.8
       '@types/react': ^17.0.0 || ^18.0.0 || ^19.0.0
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
 
-  '@mui/material@6.1.7':
-    resolution: {integrity: sha512-KsjujQL/A2hLd1PV3QboF+W6SSL5QqH6ZlSuQoeYz9r69+TnyBFIevbYLxdjJcJmGBjigL5pfpn7hTGop+vhSg==}
+  '@mui/material@6.1.8':
+    resolution: {integrity: sha512-QZdQFnXct+7NXIzHgT3qt+sQiO7HYGZU2vymP9Xl9tUMXEOA/S1mZMMb7+WGZrk5TzNlU/kP/85K0da5V1jXoQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.5.0
       '@emotion/styled': ^11.3.0
-      '@mui/material-pigment-css': ^6.1.7
+      '@mui/material-pigment-css': ^6.1.8
       '@types/react': ^17.0.0 || ^18.0.0 || ^19.0.0
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -951,8 +951,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@mui/private-theming@6.1.7':
-    resolution: {integrity: sha512-uLbfUSsug5K0LVkv0PI6Flste3le8+6WSL2omdTiYde93P89Qr7pKr8TA6d2yXfr+Bm+SvD8/fGnkaRwFkryuQ==}
+  '@mui/private-theming@6.1.8':
+    resolution: {integrity: sha512-TuKl7msynCNCVvhX3c0ef1sF0Qb3VHcPs8XOGB/8bdOGBr/ynmIG1yTMjZeiFQXk8yN9fzK/FDEKMFxILNn3wg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -961,8 +961,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@mui/styled-engine@6.1.7':
-    resolution: {integrity: sha512-Ou4CxN7MQmwrfG1Pu6EYjPgPChQXxPDJrwgizLXlRPOad5qAq4gYXRuzrGQ2DfGjjwmJhjI8T6A0SeapAZPGig==}
+  '@mui/styled-engine@6.1.8':
+    resolution: {integrity: sha512-ZvEoT0U2nPLSLI+B4by4cVjaZnPT2f20f4JUPkyHdwLv65ZzuoHiTlwyhqX1Ch63p8bcJzKTHQVGisEoMK6PGA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.4.1
@@ -974,8 +974,8 @@ packages:
       '@emotion/styled':
         optional: true
 
-  '@mui/system@6.1.7':
-    resolution: {integrity: sha512-qbMGgcC/FodpuRSfjXlEDdbNQaW++eATh0vNBcPUv2/YXSpReoOpoT9FhogxEBNks+aQViDXBRZKh6HX2fVmwg==}
+  '@mui/system@6.1.8':
+    resolution: {integrity: sha512-i1kLfQoWxzFpXTBQIuPoA3xKnAnP3en4I2T8xIolovSolGQX5k8vGjw1JaydQS40td++cFsgCdEU458HDNTGUA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.5.0
@@ -998,8 +998,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@mui/utils@6.1.7':
-    resolution: {integrity: sha512-Gr7cRZxBoZ0BIa3Xqf/2YaUrBLyNPJvXPQH3OsD9WMZukI/TutibbQBVqLYpgqJn8pKSjbD50Yq2auG0wI1xOw==}
+  '@mui/utils@6.1.8':
+    resolution: {integrity: sha512-O2DWb1kz8hiANVcR7Z4gOB3SvPPsSQGUmStpyBDzde6dJIfBzgV9PbEQOBZd3EBsd1pB+Uv1z5LAJAbymmawrA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -1545,8 +1545,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@swc/types@0.1.15':
-    resolution: {integrity: sha512-XKaZ+dzDIQ9Ot9o89oJQ/aluI17+VvUnIpYJTcZtvv1iYX6MzHh3Ik2CSR7MdPKpPwfZXHBeCingb2b4PoDVdw==}
+  '@swc/types@0.1.16':
+    resolution: {integrity: sha512-okcPxwxfdKUPrH15TbMcuqMJBu6QcxjHwyhYj1IPyaSAKHY7SHqhaS2UCANaOQ/+E6Dor50IgNpSbeJNqcuehw==}
 
   '@tsconfig/node10@1.0.11':
     resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
@@ -1745,11 +1745,11 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.8.2:
-    resolution: {integrity: sha512-lTAzdIYbkmhOPNbwV4ukNrPaorykgZU1jNjx1aOOuA4o0+lVoHQKRRUO2dbrYsLR8ot/oqVtCnglHaGh87lISw==}
+  aws-amplify@6.9.0:
+    resolution: {integrity: sha512-r5bRI+v/Rr/ekE6bJk7AL2zfXvQ7QRqIn0AzFoFgIGynPPAb5ucSnwIz6NEFkvrX2FbtI4b1Tsu93p3uNSLKng==}
 
-  aws-cdk-lib@2.167.2:
-    resolution: {integrity: sha512-Izvg4VnuzKe2JPDRBlZtMYnOTe6qymtqU642SPeV8tAoBTQPfhZ0d34mXtxCRc9YQk1SoMPGO5VJ8H4Z2CE8Iw==}
+  aws-cdk-lib@2.168.0:
+    resolution: {integrity: sha512-eZkXYJaCLKRY1XzFKWHPr/7vSMMRmhz8p2oZacfxzr6XrzWcD5xtoNx2qIf215jaAI5Hewg31AMGZvQRQVNajw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1766,8 +1766,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.167.2:
-    resolution: {integrity: sha512-Ot4Wn+e6PBwMdxJPDbWoP1PngrtltflGSR3clCopA26ai33/Qr0AmvayiODrO8RzcM2hDSMVKhw68vv0ebGhgA==}
+  aws-cdk@2.168.0:
+    resolution: {integrity: sha512-jYsHcXBknuocRsdDUMZbcDN4E9EQE2F8oxNb7DtD38bn4/7TJehexxYg9yeAOH1pA120bGwLDX8STcAmf0kGIg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1901,6 +1901,11 @@ packages:
   cosmiconfig@7.1.0:
     resolution: {integrity: sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==}
     engines: {node: '>=10'}
+
+  crc-32@1.2.2:
+    resolution: {integrity: sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==}
+    engines: {node: '>=0.8'}
+    hasBin: true
 
   create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
@@ -3293,9 +3298,9 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@aws-amplify/analytics@7.0.58(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/analytics@7.0.59(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/core': 6.6.0
       '@aws-sdk/client-firehose': 3.621.0
       '@aws-sdk/client-kinesis': 3.621.0
       '@aws-sdk/client-personalize-events': 3.621.0
@@ -3304,36 +3309,36 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.6.1':
+  '@aws-amplify/api-graphql@4.6.2':
     dependencies:
-      '@aws-amplify/api-rest': 4.0.58(@aws-amplify/core@6.5.3)
-      '@aws-amplify/core': 6.5.3
-      '@aws-amplify/data-schema': 1.15.0
+      '@aws-amplify/api-rest': 4.0.59(@aws-amplify/core@6.6.0)
+      '@aws-amplify/core': 6.6.0
+      '@aws-amplify/data-schema': 1.16.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
       tslib: 2.8.1
       uuid: 9.0.1
 
-  '@aws-amplify/api-rest@4.0.58(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/api-rest@4.0.59(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/core': 6.6.0
       tslib: 2.8.1
 
-  '@aws-amplify/api@6.1.3(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/api@6.1.4(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.6.1
-      '@aws-amplify/api-rest': 4.0.58(@aws-amplify/core@6.5.3)
+      '@aws-amplify/api-graphql': 4.6.2
+      '@aws-amplify/api-rest': 4.0.59(@aws-amplify/core@6.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@aws-amplify/core'
 
-  '@aws-amplify/auth@6.6.2(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/auth@6.7.0(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/core': 6.6.0
       tslib: 2.8.1
 
-  '@aws-amplify/core@6.5.3':
+  '@aws-amplify/core@6.6.0':
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -3349,7 +3354,7 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.15.0':
+  '@aws-amplify/data-schema@1.16.0':
     dependencies:
       '@aws-amplify/data-schema-types': 1.2.0
       '@smithy/util-base64': 3.0.0
@@ -3357,36 +3362,37 @@ snapshots:
       '@types/json-schema': 7.0.15
       rxjs: 7.8.1
 
-  '@aws-amplify/datastore@5.0.60(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/datastore@5.0.61(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/api': 6.1.3(@aws-amplify/core@6.5.3)
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/api': 6.1.4(@aws-amplify/core@6.6.0)
+      '@aws-amplify/core': 6.6.0
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
       rxjs: 7.8.1
       ulid: 2.3.0
 
-  '@aws-amplify/notifications@2.0.58(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/notifications@2.0.59(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/core': 6.6.0
       lodash: 4.17.21
       tslib: 2.8.1
 
-  '@aws-amplify/storage@6.6.16(@aws-amplify/core@6.5.3)':
+  '@aws-amplify/storage@6.7.0(@aws-amplify/core@6.6.0)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
+      '@aws-amplify/core': 6.6.0
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
+      crc-32: 1.2.2
       fast-xml-parser: 4.5.0
       tslib: 2.8.1
 
-  '@aws-amplify/ui-react-core@3.0.30(@aws-amplify/core@6.5.3)(@types/react@18.3.12)(aws-amplify@6.8.2)(react@18.3.1)':
+  '@aws-amplify/ui-react-core@3.0.30(@aws-amplify/core@6.6.0)(@types/react@18.3.12)(aws-amplify@6.9.0)(react@18.3.1)':
     dependencies:
-      '@aws-amplify/ui': 6.6.6(@aws-amplify/core@6.5.3)(aws-amplify@6.8.2)(xstate@4.38.3)
+      '@aws-amplify/ui': 6.6.6(@aws-amplify/core@6.6.0)(aws-amplify@6.9.0)(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@18.3.12)(react@18.3.1)(xstate@4.38.3)
-      aws-amplify: 6.8.2
+      aws-amplify: 6.9.0
       lodash: 4.17.21
       react: 18.3.1
       react-hook-form: 7.53.2(react@18.3.1)
@@ -3396,11 +3402,11 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.6.0(@aws-amplify/core@6.5.3)(@types/react@18.3.12)(aws-amplify@6.8.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.6.0(@aws-amplify/core@6.6.0)(@types/react@18.3.12)(aws-amplify@6.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
-      '@aws-amplify/ui': 6.6.6(@aws-amplify/core@6.5.3)(aws-amplify@6.8.2)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.30(@aws-amplify/core@6.5.3)(@types/react@18.3.12)(aws-amplify@6.8.2)(react@18.3.1)
+      '@aws-amplify/core': 6.6.0
+      '@aws-amplify/ui': 6.6.6(@aws-amplify/core@6.6.0)(aws-amplify@6.9.0)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.30(@aws-amplify/core@6.6.0)(@types/react@18.3.12)(aws-amplify@6.9.0)(react@18.3.1)
       '@radix-ui/react-direction': 1.0.0(react@18.3.1)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3411,16 +3417,16 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.8.1
     optionalDependencies:
-      aws-amplify: 6.8.2
+      aws-amplify: 6.9.0
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.6.6(@aws-amplify/core@6.5.3)(aws-amplify@6.8.2)(xstate@4.38.3)':
+  '@aws-amplify/ui@6.6.6(@aws-amplify/core@6.6.0)(aws-amplify@6.9.0)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/core': 6.5.3
-      aws-amplify: 6.8.2
+      '@aws-amplify/core': 6.6.0
+      aws-amplify: 6.9.0
       csstype: 3.1.3
       lodash: 4.17.21
       tslib: 2.8.1
@@ -3463,7 +3469,7 @@ snapshots:
 
   '@aws-crypto/util@5.2.0':
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.696.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
@@ -4727,23 +4733,23 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mui/core-downloads-tracker@6.1.7': {}
+  '@mui/core-downloads-tracker@6.1.8': {}
 
-  '@mui/icons-material@6.1.7(@mui/material@6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)':
+  '@mui/icons-material@6.1.8(@mui/material@6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@mui/material': 6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@mui/material': 6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
     optionalDependencies:
       '@types/react': 18.3.12
 
-  '@mui/material@6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mui/material@6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@mui/core-downloads-tracker': 6.1.7
-      '@mui/system': 6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
+      '@mui/core-downloads-tracker': 6.1.8
+      '@mui/system': 6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
       '@mui/types': 7.2.19(@types/react@18.3.12)
-      '@mui/utils': 6.1.7(@types/react@18.3.12)(react@18.3.1)
+      '@mui/utils': 6.1.8(@types/react@18.3.12)(react@18.3.1)
       '@popperjs/core': 2.11.8
       '@types/react-transition-group': 4.4.11
       clsx: 2.1.1
@@ -4758,16 +4764,16 @@ snapshots:
       '@emotion/styled': 11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
       '@types/react': 18.3.12
 
-  '@mui/private-theming@6.1.7(@types/react@18.3.12)(react@18.3.1)':
+  '@mui/private-theming@6.1.8(@types/react@18.3.12)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@mui/utils': 6.1.7(@types/react@18.3.12)(react@18.3.1)
+      '@mui/utils': 6.1.8(@types/react@18.3.12)(react@18.3.1)
       prop-types: 15.8.1
       react: 18.3.1
     optionalDependencies:
       '@types/react': 18.3.12
 
-  '@mui/styled-engine@6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)':
+  '@mui/styled-engine@6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@emotion/cache': 11.13.5
@@ -4780,13 +4786,13 @@ snapshots:
       '@emotion/react': 11.13.5(@types/react@18.3.12)(react@18.3.1)
       '@emotion/styled': 11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)
 
-  '@mui/system@6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)':
+  '@mui/system@6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
-      '@mui/private-theming': 6.1.7(@types/react@18.3.12)(react@18.3.1)
-      '@mui/styled-engine': 6.1.7(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
+      '@mui/private-theming': 6.1.8(@types/react@18.3.12)(react@18.3.1)
+      '@mui/styled-engine': 6.1.8(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@emotion/styled@11.13.5(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       '@mui/types': 7.2.19(@types/react@18.3.12)
-      '@mui/utils': 6.1.7(@types/react@18.3.12)(react@18.3.1)
+      '@mui/utils': 6.1.8(@types/react@18.3.12)(react@18.3.1)
       clsx: 2.1.1
       csstype: 3.1.3
       prop-types: 15.8.1
@@ -4800,7 +4806,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.12
 
-  '@mui/utils@6.1.7(@types/react@18.3.12)(react@18.3.1)':
+  '@mui/utils@6.1.8(@types/react@18.3.12)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@mui/types': 7.2.19(@types/react@18.3.12)
@@ -5497,7 +5503,7 @@ snapshots:
   '@swc/core@1.9.2(@swc/helpers@0.5.15)':
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.15
+      '@swc/types': 0.1.16
     optionalDependencies:
       '@swc/core-darwin-arm64': 1.9.2
       '@swc/core-darwin-x64': 1.9.2
@@ -5521,7 +5527,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/types@0.1.15':
+  '@swc/types@0.1.16':
     dependencies:
       '@swc/counter': 0.1.3
 
@@ -5760,20 +5766,20 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.8.2:
+  aws-amplify@6.9.0:
     dependencies:
-      '@aws-amplify/analytics': 7.0.58(@aws-amplify/core@6.5.3)
-      '@aws-amplify/api': 6.1.3(@aws-amplify/core@6.5.3)
-      '@aws-amplify/auth': 6.6.2(@aws-amplify/core@6.5.3)
-      '@aws-amplify/core': 6.5.3
-      '@aws-amplify/datastore': 5.0.60(@aws-amplify/core@6.5.3)
-      '@aws-amplify/notifications': 2.0.58(@aws-amplify/core@6.5.3)
-      '@aws-amplify/storage': 6.6.16(@aws-amplify/core@6.5.3)
+      '@aws-amplify/analytics': 7.0.59(@aws-amplify/core@6.6.0)
+      '@aws-amplify/api': 6.1.4(@aws-amplify/core@6.6.0)
+      '@aws-amplify/auth': 6.7.0(@aws-amplify/core@6.6.0)
+      '@aws-amplify/core': 6.6.0
+      '@aws-amplify/datastore': 5.0.61(@aws-amplify/core@6.6.0)
+      '@aws-amplify/notifications': 2.0.59(@aws-amplify/core@6.6.0)
+      '@aws-amplify/storage': 6.7.0(@aws-amplify/core@6.6.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.167.2(constructs@10.4.2):
+  aws-cdk-lib@2.168.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.212
       '@aws-cdk/asset-kubectl-v20': 2.1.3
@@ -5781,7 +5787,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 38.0.1
       constructs: 10.4.2
 
-  aws-cdk@2.167.2:
+  aws-cdk@2.168.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -5925,6 +5931,8 @@ snapshots:
       parse-json: 5.2.0
       path-type: 4.0.0
       yaml: 1.10.2
+
+  crc-32@1.2.2: {}
 
   create-require@1.1.1: {}
 
