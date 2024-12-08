@@ -1,4 +1,5 @@
 'use client';
+
 import { ReactNode, useState } from 'react';
 import StyledJsxRegistry from './registry';
 import { Inter } from 'next/font/google';

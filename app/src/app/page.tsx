@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { JSX } from 'react';
 import { Box } from '@mui/system';
 import { Amplify } from 'aws-amplify';
 import { Button } from '@aws-amplify/ui-react';
