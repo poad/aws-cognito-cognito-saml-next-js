@@ -11,18 +11,18 @@
     "prebuild": "pnpm -r install"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.12.0",
-    "@stylistic/eslint-plugin-js": "^2.12.0",
-    "@stylistic/eslint-plugin-jsx": "^2.12.0",
-    "@stylistic/eslint-plugin-plus": "^2.12.0",
-    "@stylistic/eslint-plugin-ts": "^2.12.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "@stylistic/eslint-plugin-js": "^2.12.1",
+    "@stylistic/eslint-plugin-jsx": "^2.12.1",
+    "@stylistic/eslint-plugin-plus": "^2.12.1",
+    "@stylistic/eslint-plugin-ts": "^2.12.1",
     "eslint": "^9.16.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.17.0"
+    "typescript-eslint": "^8.18.0"
   },
   "engines": {
     "npm": "use pnpm please!",
