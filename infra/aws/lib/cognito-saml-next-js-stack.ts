@@ -207,21 +207,36 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
           'sts:AssumeRoleWithWebIdentity'
         ).withSessionTags(),
         maxSessionDuration: cdk.Duration.hours(12),
+        inlinePolicies: {
+          'CognitoSamlIdPoolAuthRolePolicy': new iam.PolicyDocument({
+            statements: [
+              new iam.PolicyStatement({
+                effect: iam.Effect.ALLOW,
+                actions: [
+                  'cognito-sync:*',
+                  'cognito-identity:*',
+                  'sts:*',
+                ],
+                resources: ['*'],
+              }),
+            ],
+          }),
+          'StorageBrowserForAmazonS3Policy': new iam.PolicyDocument({
+            statements: [
+              new iam.PolicyStatement({
+                effect: iam.Effect.ALLOW,
+                actions: [
+                  's3:*',
+                ],
+                resources: [
+                  'arn:aws:s3:::storage-browser-s3-store',
+                  'arn:aws:s3:::storage-browser-s3-store/*',
+                ],
+              }),
+            ],
+          }),
+        },
       }
-    );
-    authenticatedRole.addToPolicy(
-      new iam.PolicyStatement({
-        effect: iam.Effect.ALLOW,
-        actions: ['cognito-sync:*', 'cognito-identity:*'],
-        resources: ['*'],
-      })
-    );
-    authenticatedRole.addToPolicy(
-      new iam.PolicyStatement({
-        effect: iam.Effect.ALLOW,
-        actions: ['sts:*'],
-        resources: ['*'],
-      })
     );
 
     new cognito.CfnIdentityPoolRoleAttachment(

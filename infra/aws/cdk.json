@@ -21,10 +21,14 @@
     "dev": {
       "domain": "dev-azure-saml-test",
       "callbackUrls": [
-        "http://localhost:3000/"
+        "http://localhost:3000/",
+        "http://localhost:4173/",
+        "http://localhost:5173/"
       ],
       "logoutUrls": [
-        "http://localhost:3000/"
+        "http://localhost:3000/",
+        "http://localhost:4173/",
+        "http://localhost:5173/"
       ]
     },
     "dev2": {
