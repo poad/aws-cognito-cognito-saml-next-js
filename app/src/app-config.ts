@@ -1,37 +1,7 @@
-import { ResourcesConfig } from '@aws-amplify/core';
-
-// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
-type AmplifyConfig = {
-  aws_cognito_region: string;
-  aws_user_pools_id: string;
-  aws_cognito_identity_pool_id: string;
-  aws_user_pools_web_client_id: string;
-  oauth?: {
-    domain: string;
-    scope: string[];
-    redirectSignIn: string;
-    redirectSignOut: string;
-    responseType: string;
-  },
-  federationTarget: string;
-};
+import { AuthConfig, ResourcesConfig, StorageConfig } from '@aws-amplify/core';
 
 const appConfig = {
-  aws_project_region: 'us-west-2',
-  aws_cognito_identity_pool_id: process.env.NEXT_PUBLIC_AWS_COGNITO_ID_POOL_ID,
-  aws_cognito_region: 'us-west-2',
-  aws_user_pools_id: process.env.NEXT_PUBLIC_AWS_COGNITO_USER_POOL_ID,
-  aws_user_pools_web_client_id: process.env.NEXT_PUBLIC_AWS_CLIENT_ID,
   identityProviderName: 'AzureAD',
-  oauth: {
-    domain: process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_DOMAIN,
-    scope: ['email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
-    redirectSignIn: process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNIN,
-    redirectSignOut:
-      process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNOUT,
-    responseType: 'token',
-  },
-  federationTarget: 'AzureAD',
   Auth: {
     Cognito: {
       // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
@@ -115,7 +85,24 @@ const appConfig = {
         process.env.NEXT_PUBLIC_AWS_COGNITO_OAUTH_REDIRECT_SIGNOUT,
       responseType: 'token',
     },
-  },
-} as ResourcesConfig & AmplifyConfig;
+  } as AuthConfig,
+  Storage: {
+    S3: {
+      bucket: process.env.NEXT_PUBLIC_AWS_S3_BUCKET,
+      region: 'us-west-2',
+      buckets: {
+        'default': {
+          bucketName: process.env.NEXT_PUBLIC_AWS_S3_BUCKET,
+          region: 'us-west-2',
+          paths: {
+            'public/*': {
+              'authenticated': ['read'],
+            },
+          },
+        },
+      },
+    },
+  } as StorageConfig,
+} as ResourcesConfig & { identityProviderName: string };
 
 export default appConfig;

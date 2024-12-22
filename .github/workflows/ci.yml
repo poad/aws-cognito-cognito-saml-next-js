@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
 
     steps:
     - uses: actions/checkout@v4
@@ -44,6 +44,12 @@ jobs:
           - recursive: true
             args: [--no-frozen-lockfile]
           - args: [--global, aws-cdk]  
-      
+
+    - name: generate dotenv
+      env:
+        DOTENV: ${{ secrets.DOTENV }}
+      run:
+        echo "$DOTENV" > app/.env
+
     - name: build
       run: pnpm -r build

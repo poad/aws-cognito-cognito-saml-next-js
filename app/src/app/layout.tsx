@@ -23,6 +23,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useTheme } from '@mui/material/styles';
 import defaultTheme from './theme';
 import { Authenticator } from '@aws-amplify/ui-react';
+import { Amplify } from 'aws-amplify';
+import '@aws-amplify/ui-react/styles.css';
+import awsconfig from '../app-config';
+
+Amplify.configure(awsconfig);
 
 const drawerWidth = 240;
 

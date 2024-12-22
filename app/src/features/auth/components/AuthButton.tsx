@@ -3,11 +3,11 @@ import React, { JSX } from 'react';
 import { signInWithRedirect } from 'aws-amplify/auth';
 
 import { Button } from '@mui/material';
-import appConfig from '../../app-config';
+import appConfig from '../../../app-config';
 import crypto from 'crypto';
 
-const AuthButton = (): JSX.Element => {
-  const idpName = appConfig.federationTarget;
+function AuthButton(): JSX.Element {
+  const idpName = appConfig.identityProviderName;
 
   const onClick = async (): Promise<void> => {
     const hash = crypto

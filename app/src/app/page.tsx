@@ -1,15 +1,10 @@
 'use client';
 
 import React, { JSX } from 'react';
-import { Box } from '@mui/system';
-import { Amplify } from 'aws-amplify';
-import { Button } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
-import awsconfig from '../app-config';
-import AuthButton from '../components/AuthButton';
-import useAuth from '../hooks/useAuth';
-
-Amplify.configure(awsconfig);
+import { Button, View } from '@aws-amplify/ui-react';
+import AuthButton from '../features/auth/components/AuthButton';
+import useAuth from '../features/auth/hooks/useAuth';
+import { StorageBrowser } from '../features/storage-browser/components/StorageBrowser';
 
 function Home(): JSX.Element {
   const auth = useAuth();
@@ -17,24 +12,25 @@ function Home(): JSX.Element {
   return auth?.token ? (
     auth?.user ? (
       <>
-        <Box sx={{ width: '20rem', mt: '3rem' }}>
+        <View width='20rem' marginTop="3rem">
           <Button onClick={auth.signOut}>Sign Out</Button>
-        </Box>
-        <Box sx={{ color: '#2d2d2d', whiteSpace: 'pre-wrap' }}>
+          <StorageBrowser />
+        </View>
+        <View color='#2d2d2d' whiteSpace='pre-wrap'>
           {auth.attributes?.name}
-        </Box>
-        <Box sx={{ color: '#2d2d2d', whiteSpace: 'pre-wrap' }}>
+        </View>
+        <View color='#2d2d2d' whiteSpace='pre-wrap'>
           {auth.attributes?.email}
-        </Box>
+        </View>
       </>
     ) : (
       <></>
     )
   ) : (
     <>
-      <Box sx={{ width: '20rem', mt: '3rem' }}>
+      <View width='20rem' marginTop="3rem">
         <AuthButton />
-      </Box>
+      </View>
     </>
   );
 }
