@@ -54,11 +54,11 @@ importers:
         specifier: ^6.7.2
         version: 6.7.2(@aws-amplify/core@6.8.0)(aws-amplify@6.11.0)(xstate@4.38.3)
       '@aws-amplify/ui-react':
-        specifier: ^6.7.2
-        version: 6.7.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
+        specifier: ^6.8.0
+        version: 6.8.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
       '@aws-amplify/ui-react-storage':
-        specifier: ^3.5.1
-        version: 3.5.1(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
+        specifier: ^3.6.0
+        version: 3.6.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
       '@aws-sdk/client-cognito-identity':
         specifier: ^3.716.0
         version: 3.716.0
@@ -84,8 +84,8 @@ importers:
         specifier: ^6.11.0
         version: 6.11.0
       next:
-        specifier: ^15.1.2
-        version: 15.1.2(@babel/core@7.25.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^15.1.3
+        version: 15.1.3(@babel/core@7.25.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -124,8 +124,8 @@ importers:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.31.0)
       eslint-config-next:
-        specifier: ^15.1.2
-        version: 15.1.2(eslint@9.17.0)(typescript@5.7.2)
+        specifier: ^15.1.3
+        version: 15.1.3(eslint@9.17.0)(typescript@5.7.2)
       eslint-import-resolver-typescript:
         specifier: ^3.7.0
         version: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.17.0)
@@ -157,8 +157,8 @@ importers:
         specifier: ^3.716.0
         version: 3.716.0
       aws-cdk-lib:
-        specifier: ^2.173.2
-        version: 2.173.2(constructs@10.4.2)
+        specifier: ^2.173.4
+        version: 2.173.4(constructs@10.4.2)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -170,8 +170,8 @@ importers:
         version: 0.5.21
     devDependencies:
       '@swc/core':
-        specifier: ^1.10.1
-        version: 1.10.1(@swc/helpers@0.5.15)
+        specifier: ^1.10.3
+        version: 1.10.3(@swc/helpers@0.5.15)
       '@swc/helpers':
         specifier: ^0.5.15
         version: 0.5.15
@@ -182,14 +182,14 @@ importers:
         specifier: ^22.10.2
         version: 22.10.2
       aws-cdk:
-        specifier: ^2.173.2
-        version: 2.173.2
+        specifier: ^2.173.4
+        version: 2.173.4
       regenerator-runtime:
         specifier: ^0.14.1
         version: 0.14.1
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2)
+        version: 10.9.2(@swc/core@1.10.3(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -207,8 +207,8 @@ importers:
         version: 10.4.2
     devDependencies:
       '@swc/core':
-        specifier: ^1.10.1
-        version: 1.10.1(@swc/helpers@0.5.15)
+        specifier: ^1.10.3
+        version: 1.10.3(@swc/helpers@0.5.15)
       '@swc/helpers':
         specifier: ^0.5.15
         version: 0.5.15
@@ -220,7 +220,7 @@ importers:
         version: 0.14.1
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2)
+        version: 10.9.2(@swc/core@1.10.3(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -276,26 +276,26 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/ui-react-core@3.1.2':
-    resolution: {integrity: sha512-hbxXjf05UmQa/om4FEkUKEg2MU18pa1gy7Gk3lOa6L3qpzUC/qfC3D0nOEAfr9IAOSDIpCpvdOhf1ynPqgPw9A==}
+  '@aws-amplify/ui-react-core@3.2.0':
+    resolution: {integrity: sha512-ELN0i4293U9UjwJqvnn6Tx8bq02UGkU0jRTR+RiD90e6tsOG18DL5OQyjGfvpm4aNmhNVTxxLovNFLfghkY97Q==}
     peerDependencies:
       aws-amplify: ^6.9.0
-      react: ^16.14.0 || ^17.0 || ^18.0
+      react: ^16.14 || ^17 || ^18 || ^19
 
-  '@aws-amplify/ui-react-storage@3.5.1':
-    resolution: {integrity: sha512-XCt7kIjZ4ymWRWSCorP1HUwuhl9dsM6d4drWnNBa23k1rfOwd36UjOPltEY6S3vzFPVdVifYa9Z7YhO/vXeGzw==}
+  '@aws-amplify/ui-react-storage@3.6.0':
+    resolution: {integrity: sha512-Jwakv3INIjPDQnlQJQNB80tw8lWGdJo1SywCEci0TIE0n8zVroZArVMoRMAGVu/Rf46CvmBldZ0xzbsbJI3yFQ==}
     peerDependencies:
       aws-amplify: ^6.9.0
-      react: ^16.14.0 || ^17.0 || ^18.0
-      react-dom: ^16.14.0 || ^17.0 || ^18.0
+      react: ^16.14 || ^17 || ^18 || ^19
+      react-dom: ^16.14 || ^17 || ^18 || ^19
 
-  '@aws-amplify/ui-react@6.7.2':
-    resolution: {integrity: sha512-cqQEAjK8aBukFn5fnAuS3SOLtbyWZmTRyPnBMSRmZ4Rce8noSylTi0rolUAEwhBpdbx1TlkzIbnmPJwVXZ73yQ==}
+  '@aws-amplify/ui-react@6.8.0':
+    resolution: {integrity: sha512-0tvf0AoZ2jPA2QTrlgHRdDs8PtfmRuqMkdjBEtuWrqjlEJgEyISE1qsH3BqjYPmR7rK6EeMLwmbyM2Ix13AMDw==}
     peerDependencies:
       '@aws-amplify/core': '*'
       aws-amplify: ^6.9.0
-      react: ^16.14.0 || ^17.0 || ^18.0
-      react-dom: ^16.14.0 || ^17.0 || ^18.0
+      react: ^16.14.0 || ^17.0 || ^18.0 || ^19
+      react-dom: ^16.14 || ^17 || ^18 || ^19
     peerDependenciesMeta:
       aws-amplify:
         optional: true
@@ -1018,56 +1018,56 @@ packages:
       '@types/react':
         optional: true
 
-  '@next/env@15.1.2':
-    resolution: {integrity: sha512-Hm3jIGsoUl6RLB1vzY+dZeqb+/kWPZ+h34yiWxW0dV87l8Im/eMOwpOA+a0L78U0HM04syEjXuRlCozqpwuojQ==}
+  '@next/env@15.1.3':
+    resolution: {integrity: sha512-Q1tXwQCGWyA3ehMph3VO+E6xFPHDKdHFYosadt0F78EObYxPio0S09H9UGYznDe6Wc8eLKLG89GqcFJJDiK5xw==}
 
-  '@next/eslint-plugin-next@15.1.2':
-    resolution: {integrity: sha512-sgfw3+WdaYOGPKCvM1L+UucBmRfh8V2Ygefp7ELON0+0vY7uohQwXXnVWg3rY7mXDKharQR3o7uedpfvnU2hlQ==}
+  '@next/eslint-plugin-next@15.1.3':
+    resolution: {integrity: sha512-oeP1vnc5Cq9UoOb8SYHAEPbCXMzOgG70l+Zfd+Ie00R25FOm+CCVNrcIubJvB1tvBgakXE37MmqSycksXVPRqg==}
 
-  '@next/swc-darwin-arm64@15.1.2':
-    resolution: {integrity: sha512-b9TN7q+j5/7+rGLhFAVZiKJGIASuo8tWvInGfAd8wsULjB1uNGRCj1z1WZwwPWzVQbIKWFYqc+9L7W09qwt52w==}
+  '@next/swc-darwin-arm64@15.1.3':
+    resolution: {integrity: sha512-aZtmIh8jU89DZahXQt1La0f2EMPt/i7W+rG1sLtYJERsP7GRnNFghsciFpQcKHcGh4dUiyTB5C1X3Dde/Gw8gg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.1.2':
-    resolution: {integrity: sha512-caR62jNDUCU+qobStO6YJ05p9E+LR0EoXh1EEmyU69cYydsAy7drMcOlUlRtQihM6K6QfvNwJuLhsHcCzNpqtA==}
+  '@next/swc-darwin-x64@15.1.3':
+    resolution: {integrity: sha512-aw8901rjkVBK5mbq5oV32IqkJg+CQa6aULNlN8zyCWSsePzEG3kpDkAFkkTOh3eJ0p95KbkLyWBzslQKamXsLA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@15.1.2':
-    resolution: {integrity: sha512-fHHXBusURjBmN6VBUtu6/5s7cCeEkuGAb/ZZiGHBLVBXMBy4D5QpM8P33Or8JD1nlOjm/ZT9sEE5HouQ0F+hUA==}
+  '@next/swc-linux-arm64-gnu@15.1.3':
+    resolution: {integrity: sha512-YbdaYjyHa4fPK4GR4k2XgXV0p8vbU1SZh7vv6El4bl9N+ZSiMfbmqCuCuNU1Z4ebJMumafaz6UCC2zaJCsdzjw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@15.1.2':
-    resolution: {integrity: sha512-9CF1Pnivij7+M3G74lxr+e9h6o2YNIe7QtExWq1KUK4hsOLTBv6FJikEwCaC3NeYTflzrm69E5UfwEAbV2U9/g==}
+  '@next/swc-linux-arm64-musl@15.1.3':
+    resolution: {integrity: sha512-qgH/aRj2xcr4BouwKG3XdqNu33SDadqbkqB6KaZZkozar857upxKakbRllpqZgWl/NDeSCBYPmUAZPBHZpbA0w==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@15.1.2':
-    resolution: {integrity: sha512-tINV7WmcTUf4oM/eN3Yuu/f8jQ5C6AkueZPKeALs/qfdfX57eNv4Ij7rt0SA6iZ8+fMobVfcFVv664Op0caCCg==}
+  '@next/swc-linux-x64-gnu@15.1.3':
+    resolution: {integrity: sha512-uzafnTFwZCPN499fNVnS2xFME8WLC9y7PLRs/yqz5lz1X/ySoxfaK2Hbz74zYUdEg+iDZPd8KlsWaw9HKkLEVw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@15.1.2':
-    resolution: {integrity: sha512-jf2IseC4WRsGkzeUw/cK3wci9pxR53GlLAt30+y+B+2qAQxMw6WAC3QrANIKxkcoPU3JFh/10uFfmoMDF9JXKg==}
+  '@next/swc-linux-x64-musl@15.1.3':
+    resolution: {integrity: sha512-el6GUFi4SiDYnMTTlJJFMU+GHvw0UIFnffP1qhurrN1qJV3BqaSRUjkDUgVV44T6zpw1Lc6u+yn0puDKHs+Sbw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-win32-arm64-msvc@15.1.2':
-    resolution: {integrity: sha512-wvg7MlfnaociP7k8lxLX4s2iBJm4BrNiNFhVUY+Yur5yhAJHfkS8qPPeDEUH8rQiY0PX3u/P7Q/wcg6Mv6GSAA==}
+  '@next/swc-win32-arm64-msvc@15.1.3':
+    resolution: {integrity: sha512-6RxKjvnvVMM89giYGI1qye9ODsBQpHSHVo8vqA8xGhmRPZHDQUE4jcDbhBwK0GnFMqBnu+XMg3nYukNkmLOLWw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@15.1.2':
-    resolution: {integrity: sha512-D3cNA8NoT3aWISWmo7HF5Eyko/0OdOO+VagkoJuiTk7pyX3P/b+n8XA/MYvyR+xSVcbKn68B1rY9fgqjNISqzQ==}
+  '@next/swc-win32-x64-msvc@15.1.3':
+    resolution: {integrity: sha512-VId/f5blObG7IodwC5Grf+aYP0O8Saz1/aeU3YcWqNdIUAmFQY3VEPKPaIzfv32F/clvanOb2K2BR5DtDs6XyQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1477,68 +1477,68 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@swc/core-darwin-arm64@1.10.1':
-    resolution: {integrity: sha512-NyELPp8EsVZtxH/mEqvzSyWpfPJ1lugpTQcSlMduZLj1EASLO4sC8wt8hmL1aizRlsbjCX+r0PyL+l0xQ64/6Q==}
+  '@swc/core-darwin-arm64@1.10.3':
+    resolution: {integrity: sha512-LFFCxAUKBy69AUE+01rgazQcafIXrYs6tBa9SyKPR51ft6Tp66dAVrWg9MTykaWskuXEe80LPUvUw1ga3bOH3A==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.10.1':
-    resolution: {integrity: sha512-L4BNt1fdQ5ZZhAk5qoDfUnXRabDOXKnXBxMDJ+PWLSxOGBbWE6aJTnu4zbGjJvtot0KM46m2LPAPY8ttknqaZA==}
+  '@swc/core-darwin-x64@1.10.3':
+    resolution: {integrity: sha512-yZNv1+yPg0GvYdThsMI8WpaPRAPuw2gQDMdgijLFfRcRlr2l1sTWsDHqGd7QMTx+acYM3uB537gyd31WjUAwlQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.10.1':
-    resolution: {integrity: sha512-Y1u9OqCHgvVp2tYQAJ7hcU9qO5brDMIrA5R31rwWQIAKDkJKtv3IlTHF0hrbWk1wPR0ZdngkQSJZple7G+Grvw==}
+  '@swc/core-linux-arm-gnueabihf@1.10.3':
+    resolution: {integrity: sha512-Qa6hu5ASoKV4rcYUBGG3y3z+9UT042KAG4A7ivqqYQFcMfkB4NbZb5So2YWOpUc0/5YlSVkgL22h3Mbj5EXy7A==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.10.1':
-    resolution: {integrity: sha512-tNQHO/UKdtnqjc7o04iRXng1wTUXPgVd8Y6LI4qIbHVoVPwksZydISjMcilKNLKIwOoUQAkxyJ16SlOAeADzhQ==}
+  '@swc/core-linux-arm64-gnu@1.10.3':
+    resolution: {integrity: sha512-BGnoZrmo0nlkXrOxVHk5U3j9u4BuquFviC+LvMe+HrDc5YLVe1gSXMUSBKhIz9MY9uFgxXW977TnB1XjLSKe5Q==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-arm64-musl@1.10.1':
-    resolution: {integrity: sha512-x0L2Pd9weQ6n8dI1z1Isq00VHFvpBClwQJvrt3NHzmR+1wCT/gcYl1tp9P5xHh3ldM8Cn4UjWCw+7PaUgg8FcQ==}
+  '@swc/core-linux-arm64-musl@1.10.3':
+    resolution: {integrity: sha512-L07/4zKnIY2S/00bE+Yn3oEHkyGjWmGGE8Ta4luVCL+00s04EIwMoE1Hc8E8xFB5zLew5ViKFc5kNb5YZ/tRFQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-x64-gnu@1.10.1':
-    resolution: {integrity: sha512-yyYEwQcObV3AUsC79rSzN9z6kiWxKAVJ6Ntwq2N9YoZqSPYph+4/Am5fM1xEQYf/kb99csj0FgOelomJSobxQA==}
+  '@swc/core-linux-x64-gnu@1.10.3':
+    resolution: {integrity: sha512-cvTCekY4u0fBIDNfhv/2UxcOXqH4XJE2iNxKuQejS5KIapFJwrZ+fRQ2lha3+yopI/d2p96BlBEWTAcBzeTntw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-linux-x64-musl@1.10.1':
-    resolution: {integrity: sha512-tcaS43Ydd7Fk7sW5ROpaf2Kq1zR+sI5K0RM+0qYLYYurvsJruj3GhBCaiN3gkzd8m/8wkqNqtVklWaQYSDsyqA==}
+  '@swc/core-linux-x64-musl@1.10.3':
+    resolution: {integrity: sha512-h9kUOTrSSpY9JNc41a+NMAwK62USk/pvNE9Fi/Pfoklmlf9j9j8gRCitqvHpmZcEF4PPIsoMdiGetDipTwvWlw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-win32-arm64-msvc@1.10.1':
-    resolution: {integrity: sha512-D3Qo1voA7AkbOzQ2UGuKNHfYGKL6eejN8VWOoQYtGHHQi1p5KK/Q7V1ku55oxXBsj79Ny5FRMqiRJpVGad7bjQ==}
+  '@swc/core-win32-arm64-msvc@1.10.3':
+    resolution: {integrity: sha512-iHOmLYkZYn3r1Ff4rfyczdrYGt/wVIWyY0t8swsO9o1TE+zmucGFZuYZzgj3ng8Kp4sojJrydAGz8TINQZDBzQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.10.1':
-    resolution: {integrity: sha512-WalYdFoU3454Og+sDKHM1MrjvxUGwA2oralknXkXL8S0I/8RkWZOB++p3pLaGbTvOO++T+6znFbQdR8KRaa7DA==}
+  '@swc/core-win32-ia32-msvc@1.10.3':
+    resolution: {integrity: sha512-4SqLSE4Ozh8SxuVuHIZhkSyJQru5+WbQMRs5ggLRqeUy3vkUPHOAFAY3oMwDJUN6BwbAr8+664TmdrMwaWh8Ng==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.10.1':
-    resolution: {integrity: sha512-JWobfQDbTnoqaIwPKQ3DVSywihVXlQMbDuwik/dDWlj33A8oEHcjPOGs4OqcA3RHv24i+lfCQpM3Mn4FAMfacA==}
+  '@swc/core-win32-x64-msvc@1.10.3':
+    resolution: {integrity: sha512-jTyf/IbNq7NVyqqDIEDzgjALjWu1IMfXKLXXAJArreklIMzkfHU1sV32ZJLOBmRKPyslCoalxIAU+hTx4reUTQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.10.1':
-    resolution: {integrity: sha512-rQ4dS6GAdmtzKiCRt3LFVxl37FaY1cgL9kSUTnhQ2xc3fmHOd7jdJK/V4pSZMG1ruGTd0bsi34O2R0Olg9Zo/w==}
+  '@swc/core@1.10.3':
+    resolution: {integrity: sha512-2yjqCcsBx6SNBQZIYNlwxED9aYXW/7QBZyr8LYAxTx5bzmoNhKiClYbsNLe1NJ6ccf5uSbcInw12PjXLduNEdQ==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '*'
@@ -1747,8 +1747,8 @@ packages:
   aws-amplify@6.11.0:
     resolution: {integrity: sha512-CdX31Drrbk1i3QhpqCAAguf6OwPg2OHTa5g0wnxksRTjGdGKNLGaJCl65fcy3qG+LMh5Sjr55JJ6aO8wXYbvQw==}
 
-  aws-cdk-lib@2.173.2:
-    resolution: {integrity: sha512-cL9+z8Pl3VZGoO7BwdsrFAOeud/vSl3at7OvmhihbNprMN15XuFUx/rViAU5OI1m92NbV4NBzYSLbSeCwYLNyw==}
+  aws-cdk-lib@2.173.4:
+    resolution: {integrity: sha512-0reN94TzkWmyVZDDBlYB4qzJUig8wTHEe82YLHlWRUhrU78fT+drVGUr+lYZwwETaZ+8fLdCOl9ULvFNq7iczQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1765,8 +1765,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.173.2:
-    resolution: {integrity: sha512-qyMU4FoRJdZDUpsOBqyRBALBjf5A2N/MaHKX9iJUkbTET+d+nR07x3ai4TcEES+8pqPFHMTKpQMRDXs9Py/15w==}
+  aws-cdk@2.173.4:
+    resolution: {integrity: sha512-zgs3xU28VEKIwHwJHu0ZHeoEmwLGnHS2jPCMc2MsIMZu+a7CKyE77Tw6LwJkuuB96BQyqr6xJB3SbeWjXmcFhQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -2062,8 +2062,8 @@ packages:
     peerDependencies:
       eslint-plugin-import: 0.13.x
 
-  eslint-config-next@15.1.2:
-    resolution: {integrity: sha512-PrMm1/4zWSJ689wd/ypWIR5ZF1uvmp3EkgpgBV1Yu6PhEobBjXMGgT8bVNelwl17LXojO8D5ePFRiI4qXjsPRA==}
+  eslint-config-next@15.1.3:
+    resolution: {integrity: sha512-wGYlNuWnh4ujuKtZvH+7B2Z2vy9nONZE6ztd+DKF7hAsIabkrxmD4TzYHzASHENo42lmz2tnT2B+zN2sOHvpJg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -2380,6 +2380,9 @@ packages:
   ieee754@1.1.13:
     resolution: {integrity: sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==}
 
+  ieee754@1.2.1:
+    resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
@@ -2657,8 +2660,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next@15.1.2:
-    resolution: {integrity: sha512-nLJDV7peNy+0oHlmY2JZjzMfJ8Aj0/dd3jCwSZS8ZiO5nkQfcZRqDrRN3U5rJtqVTQneIOGZzb6LCNrk7trMCQ==}
+  next@15.1.3:
+    resolution: {integrity: sha512-5igmb8N8AEhWDYzogcJvtcRDU6n4cMGtBklxKD4biYv4LXN8+awc/bbQ2IM2NQHdVPgJ6XumYXfo3hBtErg1DA==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -3411,7 +3414,7 @@ snapshots:
       fast-xml-parser: 4.5.1
       tslib: 2.8.1
 
-  '@aws-amplify/ui-react-core@3.1.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)':
+  '@aws-amplify/ui-react-core@3.2.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)':
     dependencies:
       '@aws-amplify/ui': 6.7.2(@aws-amplify/core@6.8.0)(aws-amplify@6.11.0)(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@19.0.2)(react@19.0.0)(xstate@4.38.3)
@@ -3425,11 +3428,11 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react-storage@3.5.1(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)':
+  '@aws-amplify/ui-react-storage@3.6.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)':
     dependencies:
       '@aws-amplify/ui': 6.7.2(@aws-amplify/core@6.8.0)(aws-amplify@6.11.0)(xstate@4.38.3)
-      '@aws-amplify/ui-react': 6.7.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.1.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)
+      '@aws-amplify/ui-react': 6.8.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.2.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)
       aws-amplify: 6.11.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -3440,11 +3443,11 @@ snapshots:
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui-react@6.7.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.8.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@4.38.3)':
     dependencies:
       '@aws-amplify/core': 6.8.0
       '@aws-amplify/ui': 6.7.2(@aws-amplify/core@6.8.0)(aws-amplify@6.11.0)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.1.2(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)
+      '@aws-amplify/ui-react-core': 3.2.0(@aws-amplify/core@6.8.0)(@types/react@19.0.2)(aws-amplify@6.11.0)(react@19.0.0)
       '@radix-ui/react-direction': 1.0.0(react@19.0.0)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-slider': 1.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -3498,7 +3501,7 @@ snapshots:
   '@aws-crypto/sha256-js@5.2.0':
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.714.0
+      '@aws-sdk/types': 3.398.0
       tslib: 2.8.1
 
   '@aws-crypto/supports-web-crypto@5.2.0':
@@ -3507,7 +3510,7 @@ snapshots:
 
   '@aws-crypto/util@5.2.0':
     dependencies:
-      '@aws-sdk/types': 3.714.0
+      '@aws-sdk/types': 3.398.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
@@ -4858,34 +4861,34 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.0.2
 
-  '@next/env@15.1.2': {}
+  '@next/env@15.1.3': {}
 
-  '@next/eslint-plugin-next@15.1.2':
+  '@next/eslint-plugin-next@15.1.3':
     dependencies:
       fast-glob: 3.3.1
 
-  '@next/swc-darwin-arm64@15.1.2':
+  '@next/swc-darwin-arm64@15.1.3':
     optional: true
 
-  '@next/swc-darwin-x64@15.1.2':
+  '@next/swc-darwin-x64@15.1.3':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.1.2':
+  '@next/swc-linux-arm64-gnu@15.1.3':
     optional: true
 
-  '@next/swc-linux-arm64-musl@15.1.2':
+  '@next/swc-linux-arm64-musl@15.1.3':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.1.2':
+  '@next/swc-linux-x64-gnu@15.1.3':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.1.2':
+  '@next/swc-linux-x64-musl@15.1.3':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@15.1.2':
+  '@next/swc-win32-arm64-msvc@15.1.3':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.1.2':
+  '@next/swc-win32-x64-msvc@15.1.3':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -5510,51 +5513,51 @@ snapshots:
       - supports-color
       - typescript
 
-  '@swc/core-darwin-arm64@1.10.1':
+  '@swc/core-darwin-arm64@1.10.3':
     optional: true
 
-  '@swc/core-darwin-x64@1.10.1':
+  '@swc/core-darwin-x64@1.10.3':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.10.1':
+  '@swc/core-linux-arm-gnueabihf@1.10.3':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.10.1':
+  '@swc/core-linux-arm64-gnu@1.10.3':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.10.1':
+  '@swc/core-linux-arm64-musl@1.10.3':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.10.1':
+  '@swc/core-linux-x64-gnu@1.10.3':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.10.1':
+  '@swc/core-linux-x64-musl@1.10.3':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.10.1':
+  '@swc/core-win32-arm64-msvc@1.10.3':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.10.1':
+  '@swc/core-win32-ia32-msvc@1.10.3':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.10.1':
+  '@swc/core-win32-x64-msvc@1.10.3':
     optional: true
 
-  '@swc/core@1.10.1(@swc/helpers@0.5.15)':
+  '@swc/core@1.10.3(@swc/helpers@0.5.15)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.17
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.10.1
-      '@swc/core-darwin-x64': 1.10.1
-      '@swc/core-linux-arm-gnueabihf': 1.10.1
-      '@swc/core-linux-arm64-gnu': 1.10.1
-      '@swc/core-linux-arm64-musl': 1.10.1
-      '@swc/core-linux-x64-gnu': 1.10.1
-      '@swc/core-linux-x64-musl': 1.10.1
-      '@swc/core-win32-arm64-msvc': 1.10.1
-      '@swc/core-win32-ia32-msvc': 1.10.1
-      '@swc/core-win32-x64-msvc': 1.10.1
+      '@swc/core-darwin-arm64': 1.10.3
+      '@swc/core-darwin-x64': 1.10.3
+      '@swc/core-linux-arm-gnueabihf': 1.10.3
+      '@swc/core-linux-arm64-gnu': 1.10.3
+      '@swc/core-linux-arm64-musl': 1.10.3
+      '@swc/core-linux-x64-gnu': 1.10.3
+      '@swc/core-linux-x64-musl': 1.10.3
+      '@swc/core-win32-arm64-msvc': 1.10.3
+      '@swc/core-win32-ia32-msvc': 1.10.3
+      '@swc/core-win32-x64-msvc': 1.10.3
       '@swc/helpers': 0.5.15
 
   '@swc/counter@0.1.3': {}
@@ -5812,7 +5815,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.173.2(constructs@10.4.2):
+  aws-cdk-lib@2.173.4(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.216
       '@aws-cdk/asset-kubectl-v20': 2.1.3
@@ -5820,7 +5823,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 38.0.1
       constructs: 10.4.2
 
-  aws-cdk@2.173.2:
+  aws-cdk@2.173.4:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -5887,7 +5890,7 @@ snapshots:
   buffer@4.9.2:
     dependencies:
       base64-js: 1.5.1
-      ieee754: 1.1.13
+      ieee754: 1.2.1
       isarray: 1.0.0
 
   busboy@1.6.0:
@@ -6176,9 +6179,9 @@ snapshots:
     dependencies:
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.18.2(eslint@9.17.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.17.0)
 
-  eslint-config-next@15.1.2(eslint@9.17.0)(typescript@5.7.2):
+  eslint-config-next@15.1.3(eslint@9.17.0)(typescript@5.7.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.1.2
+      '@next/eslint-plugin-next': 15.1.3
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 8.18.2(@typescript-eslint/parser@8.18.2(eslint@9.17.0)(typescript@5.7.2))(eslint@9.17.0)(typescript@5.7.2)
       '@typescript-eslint/parser': 8.18.2(eslint@9.17.0)(typescript@5.7.2)
@@ -6568,6 +6571,8 @@ snapshots:
 
   ieee754@1.1.13: {}
 
+  ieee754@1.2.1: {}
+
   ignore@5.3.2: {}
 
   immer@9.0.6: {}
@@ -6825,9 +6830,9 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.1.2(@babel/core@7.25.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  next@15.1.3(@babel/core@7.25.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      '@next/env': 15.1.2
+      '@next/env': 15.1.3
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
@@ -6837,14 +6842,14 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       styled-jsx: 5.1.6(@babel/core@7.25.7)(react@19.0.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.1.2
-      '@next/swc-darwin-x64': 15.1.2
-      '@next/swc-linux-arm64-gnu': 15.1.2
-      '@next/swc-linux-arm64-musl': 15.1.2
-      '@next/swc-linux-x64-gnu': 15.1.2
-      '@next/swc-linux-x64-musl': 15.1.2
-      '@next/swc-win32-arm64-msvc': 15.1.2
-      '@next/swc-win32-x64-msvc': 15.1.2
+      '@next/swc-darwin-arm64': 15.1.3
+      '@next/swc-darwin-x64': 15.1.3
+      '@next/swc-linux-arm64-gnu': 15.1.3
+      '@next/swc-linux-arm64-musl': 15.1.3
+      '@next/swc-linux-x64-gnu': 15.1.3
+      '@next/swc-linux-x64-musl': 15.1.3
+      '@next/swc-win32-arm64-msvc': 15.1.3
+      '@next/swc-win32-x64-msvc': 15.1.3
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -7331,7 +7336,7 @@ snapshots:
     dependencies:
       typescript: 5.7.2
 
-  ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2):
+  ts-node@10.9.2(@swc/core@1.10.3(@swc/helpers@0.5.15))(@types/node@22.10.2)(typescript@5.7.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
@@ -7349,7 +7354,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     optionalDependencies:
-      '@swc/core': 1.10.1(@swc/helpers@0.5.15)
+      '@swc/core': 1.10.3(@swc/helpers@0.5.15)
 
   tsconfig-paths@3.15.0:
     dependencies:
