@@ -11,18 +11,19 @@
     "prebuild": "pnpm -r install"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.13.0",
-    "@stylistic/eslint-plugin-js": "^2.13.0",
-    "@stylistic/eslint-plugin-jsx": "^2.13.0",
-    "@stylistic/eslint-plugin-plus": "^2.13.0",
-    "@stylistic/eslint-plugin-ts": "^2.13.0",
+    "@stylistic/eslint-plugin": "^3.0.1",
+    "@stylistic/eslint-plugin-js": "^3.0.1",
+    "@stylistic/eslint-plugin-jsx": "^3.0.1",
+    "@stylistic/eslint-plugin-plus": "^3.0.1",
+    "@stylistic/eslint-plugin-ts": "^3.0.1",
     "eslint": "^9.19.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
+    "pnpm": "^10.2.0",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0"
+    "typescript-eslint": "^8.23.0"
   },
   "engines": {
     "npm": "use pnpm please!",
@@ -30,5 +31,5 @@
     "pnpm": ">=8.7.1",
     "node": ">=18.0.0"
   },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001"
 }
