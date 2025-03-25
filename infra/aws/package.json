@@ -12,14 +12,14 @@
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.147",
-    "@types/node": "^22.13.11",
+    "@types/aws-lambda": "^8.10.148",
+    "@types/node": "^22.13.13",
     "aws-cdk": "^2.1005.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.772.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.774.0",
     "aws-cdk-lib": "^2.185.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
