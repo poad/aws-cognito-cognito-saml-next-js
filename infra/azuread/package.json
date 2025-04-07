@@ -19,16 +19,16 @@
     "upgrade:next": "pnpm add cdktf@next cdktf-cli@next"
   },
   "dependencies": {
-    "@cdktf/provider-azuread": "^13.2.0",
+    "@cdktf/provider-azuread": "^13.3.0",
     "cdktf": "^0.20.11",
     "constructs": "^10.4.2"
   },
   "devDependencies": {
-    "@swc/core": "^1.11.13",
+    "@swc/core": "^1.11.18",
     "@swc/helpers": "^0.5.15",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.14.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   }
 }
