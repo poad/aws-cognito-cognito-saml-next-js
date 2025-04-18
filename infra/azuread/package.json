@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@cdktf/provider-azuread": "^13.3.0",
-    "cdktf": "^0.20.11",
+    "cdktf": "^0.20.12",
     "constructs": "^10.4.2"
   },
   "devDependencies": {

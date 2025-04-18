@@ -27,7 +27,7 @@
     "@mui/material": "^6.4.11",
     "@mui/system": "^6.4.11",
     "aws-amplify": "^6.14.2",
-    "next": "^15.3.0",
+    "next": "^15.3.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -42,7 +42,7 @@
     "@types/react-dom": "^19.1.2",
     "eslint": "^9.24.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.3.0",
+    "eslint-config-next": "^15.3.1",
     "eslint-import-resolver-typescript": "^3.10.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
