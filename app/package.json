@@ -19,7 +19,7 @@
     "@aws-amplify/ui": "^6.10.2",
     "@aws-amplify/ui-react": "^6.11.1",
     "@aws-amplify/ui-react-storage": "^3.10.2",
-    "@aws-sdk/client-cognito-identity": "^3.796.0",
+    "@aws-sdk/client-cognito-identity": "^3.797.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.0",
