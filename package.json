@@ -21,9 +21,9 @@
     "eslint-import-resolver-typescript": "^3.10.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
-    "pnpm": "^10.9.0",
+    "pnpm": "^10.10.0",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.31.0"
+    "typescript-eslint": "^8.31.1"
   },
   "engines": {
     "npm": "use pnpm please!",
@@ -31,5 +31,5 @@
     "pnpm": ">=8.7.1",
     "node": ">=18.0.0"
   },
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.10.0"
 }
