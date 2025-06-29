@@ -5,10 +5,6 @@ import typescriptParser from '@typescript-eslint/parser';
 
 export default [
   {
-    languageOptions: {
-      parser: typescriptParser,
-    },
-    files: ['**/*.ts', '**/*.tsx'],
     ignores: [
       '**/*.d.ts',
       '*.js',
@@ -17,6 +13,12 @@ export default [
       'src/stories',
       'node_modules/**/*',
     ],
+  },
+  {
+    languageOptions: {
+      parser: typescriptParser,
+    },
+    files: ['**/*.ts', '**/*.tsx'],
     plugins: {
       react: reactPlugin,
       'react-hooks': hooksPlugin,
