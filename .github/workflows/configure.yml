@@ -1,38 +1,26 @@
 name: configure
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
   workflow_dispatch:
 
 permissions:
-  actions: read
-  checks: write
   contents: write
-  deployments: none
-  id-token: write
-  issues: none
-  packages: none
   pull-requests: write
-  repository-projects: read
-  security-events: write
-  statuses: write
 
 jobs:
   configure:
     runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'
     steps:
-    - name: Pull request auto merge enabler
-      if: github.event_name == 'pull_request'
-      continue-on-error: true
-      uses: poad/github-pull-request-auto-merge-enable-action@v2.1.0
-      with:
-        pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: ${{ github.event.repository.name }}
-        owner: ${{ github.repository_owner }}
-        merge_method: SQUASH      
+      - uses: actions/checkout@v5
+
+      - name: Enable auto-merge for Pull Request
+        run: |
+          gh pr review --approve "$PR_URL"
+          gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
