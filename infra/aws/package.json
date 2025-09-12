@@ -14,12 +14,12 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.152",
     "@types/node": "^22.18.1",
-    "aws-cdk": "^2.1029.0",
+    "aws-cdk": "^2.1029.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.886.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.887.0",
     "aws-cdk-lib": "^2.214.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
