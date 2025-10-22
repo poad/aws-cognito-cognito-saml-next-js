@@ -1,6 +1,6 @@
 'use client';
 
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { Button, View } from '@aws-amplify/ui-react';
 import AuthButton from '../features/auth/components/AuthButton';
 import useAuth from '../features/auth/hooks/useAuth';

@@ -2,3 +2,7 @@ packages:
   - './infra/aws'
   - './infra/azuread'
   - './app'
+
+overrides: 
+  "@types/react": "19.2.2"
+  "@types/react-dom": "19.2.2"

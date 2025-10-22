@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 
 import { signInWithRedirect } from 'aws-amplify/auth';
 
