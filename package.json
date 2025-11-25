@@ -28,7 +28,7 @@
     "jiti": "^2.6.1",
     "pnpm": "^10.23.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0"
+    "typescript-eslint": "^8.48.0"
   },
   "engines": {
     "npm": "use pnpm please!",
