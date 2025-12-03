@@ -27,7 +27,7 @@
     "@mui/material": "^6.5.0",
     "@mui/system": "^6.5.0",
     "aws-amplify": "^6.15.8",
-    "next": "^16.0.6",
+    "next": "^16.0.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
