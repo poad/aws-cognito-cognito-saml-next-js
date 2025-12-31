@@ -26,9 +26,9 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.26",
     "jiti": "^2.6.1",
-    "pnpm": "^10.26.1",
+    "pnpm": "^10.27.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.50.1"
+    "typescript-eslint": "^8.51.0"
   },
   "engines": {
     "npm": "use pnpm please!",
@@ -36,5 +36,5 @@
     "pnpm": ">=10",
     "node": ">=24.0.0"
   },
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.27.0"
 }
