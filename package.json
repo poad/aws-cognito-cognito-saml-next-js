@@ -14,7 +14,7 @@
     "@eslint/compat": "^1.4.1",
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^9.39.2",
-    "@stylistic/eslint-plugin": "^5.6.1",
+    "@stylistic/eslint-plugin": "^5.7.0",
     "eslint": "^9.39.2",
     "eslint-config-next": "^15.5.9",
     "eslint-import-resolver-typescript": "^3.10.1",
@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.26",
     "jiti": "^2.6.1",
-    "pnpm": "^10.27.0",
+    "pnpm": "^10.28.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.52.0"
   },
@@ -36,5 +36,5 @@
     "pnpm": ">=10",
     "node": ">=24.0.0"
   },
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.28.0"
 }
