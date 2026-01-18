@@ -13,16 +13,16 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.159",
-    "@types/node": "^22.19.6",
-    "aws-cdk": "^2.1100.3",
+    "@types/node": "^22.19.7",
+    "aws-cdk": "^2.1101.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.969.0",
-    "aws-cdk-lib": "^2.234.1",
+    "@aws-sdk/client-cognito-identity-provider": "^3.971.0",
+    "aws-cdk-lib": "^2.235.0",
     "aws-lambda": "^1.0.7",
-    "constructs": "^10.4.4",
+    "constructs": "^10.4.5",
     "source-map-support": "^0.5.21"
   }
 }
