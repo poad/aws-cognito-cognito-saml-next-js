@@ -1,8 +1,10 @@
 packages:
-  - './infra/aws'
-  - './infra/azuread'
-  - './app'
+  - ./infra/aws
+  - ./infra/azuread
+  - ./app
 
-overrides: 
-  "@types/react": "19.2.2"
-  "@types/react-dom": "19.2.2"
+overrides:
+  '@types/react': 19.2.2
+  '@types/react-dom': 19.2.2
+  fast-xml-parser@>=4.3.6 <=5.3.3: '>=5.3.4'
+  lodash@>=4.0.0 <=4.17.22: '>=4.17.23'
