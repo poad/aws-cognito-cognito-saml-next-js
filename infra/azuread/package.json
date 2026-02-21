@@ -21,7 +21,7 @@
   "dependencies": {
     "@cdktf/provider-azuread": "^13.4.0",
     "cdktf": "^0.20.12",
-    "constructs": "^10.5.0"
+    "constructs": "^10.5.1"
   },
   "devDependencies": {
     "@swc/core": "^1.15.11",
