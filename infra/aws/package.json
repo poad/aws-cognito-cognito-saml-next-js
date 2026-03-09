@@ -19,7 +19,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.1004.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1005.0",
     "aws-cdk-lib": "^2.241.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.5.1",
