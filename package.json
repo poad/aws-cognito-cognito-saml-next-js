@@ -18,7 +18,6 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^15.5.13",
     "eslint-import-resolver-typescript": "^3.10.1",
-    "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-promise": "^7.2.1",
@@ -26,7 +25,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.26",
     "jiti": "^2.6.1",
-    "pnpm": "^10.32.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.1"
   },
