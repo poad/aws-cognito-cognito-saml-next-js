@@ -22,7 +22,7 @@ cdk deploy -c env=dev
 #### 基本的な SAML 構成
 
 | 項目 | 設定値 |
-|:---|:---|
+| :--- | :--- |
 | 識別子 (エンティティ ID) | `urn:amazon:cognito:sp:${user-pool-id}` |
 | 応答 URL (Assertion Consumer Service URL) | `https://${domain}.auth.${region}.amazoncognito.com/saml2/idpresponse` |
 | サインオン URL | `https://${domain}.auth.${region}.amazoncognito.com/login?response_type=token&client_id=${clientAppId}&redirect_uri=${loginRedirectUrl}&scope=email+openid+profile+aws.cognito.signin.user.admin` |
@@ -33,13 +33,13 @@ cdk deploy -c env=dev
 ##### 必要な要求
 
 | クレーム名 | 値 |
-|:---|:---|
+| :--- | :--- |
 | 一意のユーザー識別子 (名前 ID) | user.email |
 
 ##### 追加の要求
 
 | クレーム名 | 値 |
-|:---|:---|
+| :--- | :--- |
 | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` | user.mail |
 | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname` | user.givenname |
 | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name` | Join (user.surname, " ", user.givenname) |

@@ -3,6 +3,7 @@ import { JSX } from 'react';
 import { signInWithRedirect } from 'aws-amplify/auth';
 
 import { Button } from '@mui/material';
+import { Buffer } from 'buffer';
 import appConfig from '../../../app-config';
 import crypto from 'crypto';
 

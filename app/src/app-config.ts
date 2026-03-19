@@ -1,4 +1,5 @@
 import { AuthConfig, ResourcesConfig, StorageConfig } from '@aws-amplify/core';
+import process from 'node:process';
 
 const appConfig = {
   identityProviderName: 'AzureAD',

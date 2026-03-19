@@ -1,7 +1,7 @@
 import { Construct } from 'constructs';
-import { App, CloudBackend, TerraformStack, NamedCloudWorkspace } from 'cdktf';
-import { AzureadProvider } from '@cdktf/provider-azuread/lib/provider';
-import { Application } from '@cdktf/provider-azuread/lib/application';
+import { App, CloudBackend, TerraformStack, NamedCloudWorkspace } from 'cdktn';
+import { AzureadProvider } from '@cdktn/provider-azuread/lib/provider';
+import { Application } from '@cdktn/provider-azuread/lib/application';
 
 interface MyStackProps {
   redirectUris: string[];

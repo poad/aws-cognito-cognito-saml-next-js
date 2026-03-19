@@ -6,14 +6,13 @@ import {
   FetchUserAttributesOutput,
   fetchUserAttributes,
 } from 'aws-amplify/auth';
-import { AuthEventData } from '@aws-amplify/ui';
 import { useAuthenticator } from '@aws-amplify/ui-react';
 
 const useAuth = (): {
   user?: AuthUser;
   token?: string;
   attributes?: FetchUserAttributesOutput;
-  signOut: (data?: AuthEventData | undefined) => void;
+  signOut: () => void;
 } => {
   const [user, setUser] = React.useState<AuthUser | undefined>();
   const [token, setToken] = React.useState<string | undefined>(undefined);

@@ -5,9 +5,6 @@ const config = {
   compiler: {
     emotion: true,
   },
-  experimental: {
-    esmExternals: true,
-  }
 };
 
 export default config;

@@ -6,22 +6,22 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "lint": "eslint './{bin,lib}/**/*.{ts,js,tsx,jsx}'",
-    "lint-fix": "eslint --fix './{bin,lib}/**/*.{ts,js,tsx,jsx}'",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
     "clean": "rimraf build",
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.161",
     "@types/node": "^22.19.15",
-    "aws-cdk": "^2.1111.0",
+    "aws-cdk": "^2.1114.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.1011.0",
-    "aws-cdk-lib": "^2.243.0",
-    "constructs": "^10.5.1",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1019.0",
+    "aws-cdk-lib": "^2.245.0",
+    "constructs": "^10.6.0",
     "source-map-support": "^0.5.21"
   }
 }

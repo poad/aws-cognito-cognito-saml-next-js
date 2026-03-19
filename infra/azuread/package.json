@@ -6,29 +6,29 @@
   "license": "MPL-2.0",
   "private": true,
   "scripts": {
-    "get": "cdktf get",
+    "get": "cdktn get",
     "build": "tsc",
-    "synth": "cdktf synth",
+    "synth": "cdktn synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
-    "lint": "eslint './src/**/*.{ts,js,tsx,jsx}'",
-    "lint-fix": "eslint --fix './src/**/*.{ts,js,tsx,jsx}'",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
     "clean": "rimraf build",
     "all": "pnpm lint && pnpm build",
-    "upgrade": "pnpm add \"cdktf@*\" \"cdktf-cli@*\"",
-    "upgrade:next": "pnpm add cdktf@next cdktf-cli@next"
+    "upgrade": "pnpm add \"cdktn@*\" \"cdktn-cli@*\"",
+    "upgrade:next": "pnpm add cdktn@next cdktn-cli@next"
   },
   "dependencies": {
-    "@cdktf/provider-azuread": "^13.4.0",
-    "cdktf": "^0.21.0",
-    "constructs": "^10.5.1"
+    "@cdktn/provider-azuread": "^15.1.0",
+    "cdktn": "^0.22.1",
+    "constructs": "^10.6.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.15.18",
-    "@swc/helpers": "^0.5.19",
-    "@types/node": "^22.19.15",
+    "@swc/core": "^1.15.21",
+    "@swc/helpers": "^0.5.20",
+    "@types/node": "^24.12.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }

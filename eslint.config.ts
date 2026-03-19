@@ -1,11 +1,8 @@
 import { defineConfig } from 'eslint/config';
 import stylistic from '@stylistic/eslint-plugin';
-import react from 'eslint-plugin-react';
-import reactHooks from 'eslint-plugin-react-hooks';
-import jsxA11y from 'eslint-plugin-jsx-a11y';
-import importPlugin from 'eslint-plugin-import';
+import { importX } from 'eslint-plugin-import-x';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import pluginPromise from 'eslint-plugin-promise';
-import reactRefresh from "eslint-plugin-react-refresh";
 import { configs, parser } from 'typescript-eslint';
 // import { FlatCompat } from '@eslint/eslintrc'
  
@@ -27,7 +24,7 @@ export default defineConfig(
   {
     ignores: [
       '**/*.d.ts',
-      '*.js',
+      '**/*.js',
       'src/tsconfig.json',
       'src/next-env.d.ts',
       'src/stories',
@@ -36,26 +33,14 @@ export default defineConfig(
       'api/lambda/graphql/types/generated/graphql.ts',
     ],
   },
-  // ...compat.config({
-  //   extends: ['next'],
-  //   settings: {
-  //     next: {
-  //       rootDir: 'front/',
-  //     },
-  //   },
-  // }),
   ...configs.strict,
   ...configs.stylistic,
   // @ts-ignore
   pluginPromise.configs['flat/recommended'],
-  reactHooks.configs.flat.recommended,
-  reactRefresh.configs.recommended,
-  jsxA11y.flatConfigs.recommended,
   {
     files: ['**/*.ts', '**/*.tsx'],
     extends: [
-      importPlugin.flatConfigs.recommended,
-      importPlugin.flatConfigs.typescript,
+      'import-x/flat/recommended',
     ],
     languageOptions: {
       parser,
@@ -78,11 +63,10 @@ export default defineConfig(
       },
     },
     plugins: {
-      react,
+      'import-x': importX,
       '@stylistic': stylistic,
     },
     rules: {
-      ...react.configs['jsx-runtime'].rules,
       'no-html-link-for-pages': 'off',
       '@stylistic/semi': 'error',
       '@stylistic/indent': ['error', 2],
