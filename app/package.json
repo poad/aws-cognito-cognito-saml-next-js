@@ -19,7 +19,7 @@
     "@aws-amplify/ui": "^6.15.2",
     "@aws-amplify/ui-react": "^6.15.2",
     "@aws-amplify/ui-react-storage": "^3.17.1",
-    "@aws-sdk/client-cognito-identity": "^3.1019.0",
+    "@aws-sdk/client-cognito-identity": "^3.1022.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.1",
@@ -27,7 +27,7 @@
     "@mui/material": "^6.5.0",
     "@mui/system": "^6.5.0",
     "aws-amplify": "^6.16.3",
-    "next": "^16.2.1",
+    "next": "^16.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
@@ -35,16 +35,16 @@
     "@eslint/compat": "^2.0.3",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^9.39.4",
-    "@next/eslint-plugin-next": "^16.2.1",
+    "@next/eslint-plugin-next": "^16.2.2",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^24.12.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint-config-next": "^16.2.1",
-    "eslint-import-resolver-typescript": "^3.10.1",
+    "eslint-config-next": "^16.2.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-promise": "^7.2.1",
     "typescript": "^6.0.2",
-    "typescript-eslint": "^8.57.2"
+    "typescript-eslint": "^8.58.0"
   }
 }
