@@ -16,6 +16,8 @@ minimumReleaseAgeExclude:
   - '@vitest/*'
   - vitest@4.1.4
   - vite@8.0.8
+  - '@next/*'
+  - next@16.2.3
 
 overrides:
   brace-expansion@<1.1.13: '>=1.1.13'
