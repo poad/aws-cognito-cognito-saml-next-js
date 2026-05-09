@@ -3,6 +3,11 @@ packages:
   - ./infra/azuread
   - ./app
 
+allowBuilds:
+  '@swc/core': false
+  sharp: false
+  unrs-resolver: false
+
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
   - 'lodash@4.18.1'
@@ -18,11 +23,13 @@ minimumReleaseAgeExclude:
   - vite@8.0.8
   - '@next/*'
   - next@16.2.3
+  - fast-xml-builder@1.1.7
 
 overrides:
   brace-expansion@<1.1.13: '>=1.1.13'
   brace-expansion@>=2.0.0 <2.0.3: '>=2.0.3'
   eslint-import-resolver-typescript: '>=4'
+  fast-xml-builder@<=1.1.6: ^1.1.7
   fast-xml-parser@<5.7.0: '>=5.7.0'
   handlebars@>=4.0.0 <4.7.9: '>=4.7.9'
   handlebars@>=4.0.0 <=4.7.8: '>=4.7.9'
