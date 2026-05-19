@@ -8,6 +8,8 @@ updates:
       time: "12:00"
     allow:
       - dependency-type: all
+    cooldown:
+      default-days: 3
     rebase-strategy: auto
     assignees:
       - poad
@@ -21,6 +23,8 @@ updates:
       interval: daily
       timezone: Asia/Tokyo
       time: "12:00"
+    cooldown:
+      default-days: 7
     allow:
       - dependency-type: all
     rebase-strategy: auto
