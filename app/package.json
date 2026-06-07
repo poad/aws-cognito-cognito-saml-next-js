@@ -19,7 +19,7 @@
     "@aws-amplify/ui": "^6.15.4",
     "@aws-amplify/ui-react": "^6.15.4",
     "@aws-amplify/ui-react-storage": "^3.17.3",
-    "@aws-sdk/client-cognito-identity": "^3.1049.0",
+    "@aws-sdk/client-cognito-identity": "^3.1057.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.1",
@@ -35,16 +35,16 @@
     "@eslint/compat": "^2.1.0",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^9.39.4",
-    "@next/eslint-plugin-next": "^16.2.6",
+    "@next/eslint-plugin-next": "^16.2.7",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^24.12.4",
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "eslint-config-next": "^16.2.6",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-promise": "^7.3.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.60.0"
   }
 }
