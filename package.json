@@ -15,12 +15,12 @@
     "@eslint/js": "^9.39.4",
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.2.6",
-    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-config-next": "^16.2.7",
+    "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-promise": "^7.3.0",
     "jiti": "^2.7.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.60.0"
+    "typescript-eslint": "^8.60.1"
   },
   "engines": {
     "npm": "use pnpm please!",
@@ -28,5 +28,5 @@
     "pnpm": ">=10",
     "node": ">=24.0.0"
   },
-  "packageManager": "pnpm@11.5.0"
+  "packageManager": "pnpm@11.5.2"
 }
