@@ -1,11 +1,10 @@
-import { defineConfig } from 'eslint/config';
+import { defineConfig, includeIgnoreFile } from 'eslint/config';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import { importX } from 'eslint-plugin-import-x';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import { parser } from 'typescript-eslint';
 
-import { includeIgnoreFile } from '@eslint/compat';
 import { fileURLToPath } from 'node:url';
 import path from "node:path";
 
@@ -39,7 +38,7 @@ export default defineConfig(
     },
     settings: {
       react: {
-        version: 'detect',
+        version: '19.2',
       },
       'import-x/internal-regex': '^~/',
       'import-x/resolver-next': [

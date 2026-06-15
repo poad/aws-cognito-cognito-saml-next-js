@@ -1,12 +1,11 @@
-import { defineConfig } from 'eslint/config';
+import { defineConfig, includeIgnoreFile } from 'eslint/config';
 import stylistic from '@stylistic/eslint-plugin';
-import { importX } from 'eslint-plugin-import-x';
+import { importX, createNodeResolver } from 'eslint-plugin-import-x';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import pluginPromise from 'eslint-plugin-promise';
 import { configs, parser } from 'typescript-eslint';
 // import { FlatCompat } from '@eslint/eslintrc'
  
- import { includeIgnoreFile } from '@eslint/compat';
  import path from "node:path";
  import { fileURLToPath } from "node:url";
  
@@ -37,11 +36,10 @@ export default defineConfig(
   ...configs.stylistic,
   // @ts-ignore
   pluginPromise.configs['flat/recommended'],
+  importX.flatConfigs.recommended,
+  importX.flatConfigs.typescript,
   {
     files: ['**/*.ts', '**/*.tsx'],
-    extends: [
-      'import-x/flat/recommended',
-    ],
     languageOptions: {
       parser,
       ecmaVersion: 'latest',
@@ -49,7 +47,7 @@ export default defineConfig(
     },
     settings: {
       react: {
-        version: 'detect',
+        version: '19.2',
       },
       formComponents: ['Form'],
       linkComponents: [
@@ -57,10 +55,12 @@ export default defineConfig(
         { name: 'NavLink', linkAttribute: 'to' },
       ],
       'import/internal-regex': '^~/',
-      'import/resolver': {
-        node: true,
-        typescript: true,
-      },
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true,
+        }),
+        createNodeResolver(),
+      ],
     },
     plugins: {
       'import-x': importX,

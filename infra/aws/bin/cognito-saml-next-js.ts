@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { CognitoSamlNextJsStack } from '../lib/cognito-saml-next-js-stack';
+import { CognitoSamlNextJsStack } from '../lib/cognito-saml-next-js-stack.js';
 
 interface EnvProps {
   domain: string;
