@@ -13,14 +13,14 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.162",
-    "@types/node": "^24.13.2",
-    "aws-cdk": "^2.1128.1",
-    "tsx": "^4.22.4",
+    "@types/node": "^24.13.3",
+    "aws-cdk": "^2.1130.0",
+    "tsx": "^4.23.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.1075.0",
-    "aws-cdk-lib": "^2.260.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1086.0",
+    "aws-cdk-lib": "^2.261.0",
     "constructs": "^10.6.0"
   }
 }
