@@ -11,18 +11,28 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - 'pnpm@11.15.1'
+  - pnpm@11.20.0
+
+  - next@16.3.0
+  - eslint-config-next@16.3.0
+
+  - postcss@8.5.10 || 8.5.12 || 8.5.18 || 8.5.23
+  - sharp@0.35.0
+  - brace-expansion@1.1.17 || 1.1.18 || 5.0.8 || 5.0.9
+  - '@next/eslint-plugin-next@16.3.0'
 
 overrides:
-  esbuild@>=0.17.0 <0.28.1: ^0.28.1
-  esbuild@>=0.27.3 <0.28.1: ^0.28.1
+  brace-expansion@<1.1.17: ^1.1.17
+  brace-expansion@<1.1.18: ^1.1.18
+  brace-expansion@>=4.0.0 <5.0.8: ^5.0.8
+  brace-expansion@>=4.0.0 <5.0.9: ^5.0.9
   eslint-import-resolver-typescript: '^4.4.5'
-  fast-xml-builder@<=1.1.6: ^1.1.7
-  fast-xml-parser@<5.7.0: '>=5.7.0'
-  js-cookie@<=3.0.5: ^3.0.6
-  next@>=16.0.0 <16.2.6: ^16.2.6
-  postcss@<8.5.10: '>=8.5.10'
+  postcss@<8.5.10: ^8.5.10
+  postcss@<=8.5.11: ^8.5.12
+  postcss@<=8.5.17: ^8.5.18
+  postcss@<=8.5.22: ^8.5.23
   semver: '>=7'
+  sharp@<0.35.0: ^0.35.0
   uuid@<14.0.0: '>=14.0.0'
 
 trustPolicy: no-downgrade

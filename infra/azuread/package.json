@@ -21,10 +21,10 @@
   "dependencies": {
     "@cdktn/provider-azuread": "^15.1.0",
     "cdktn": "^0.22.1",
-    "constructs": "^10.6.0"
+    "constructs": "^10.7.1"
   },
   "devDependencies": {
-    "@swc/core": "^1.15.43",
+    "@swc/core": "^1.15.46",
     "@swc/helpers": "^0.5.23",
     "@types/node": "^24.13.3",
     "regenerator-runtime": "^0.14.1",
