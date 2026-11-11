@@ -71,10 +71,13 @@ const Layout = ({ children }: LayoutProps) => {
     return (
       <Box
         component="nav"
-        textAlign="center"
-        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+        sx={{
+          width: { sm: drawerWidth },
+          flexShrink: { sm: 0 },
+          textAlign: 'center',
+          display: 'contents',
+        }}
         aria-label="folders"
-        display="contents"
       >
         <Drawer
           variant="temporary"
