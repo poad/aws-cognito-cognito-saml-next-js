@@ -9,8 +9,10 @@
     "export": "next export",
     "release": "next build && next export",
     "start": "next start",
-    "lint": "eslint",
-    "lint-fix": "eslint --fix",
+    "lint": "oxlint",
+    "lint-fix": "oxlint --fix",
+    "format": "oxfmt --write",
+    "format:check": "oxfmt --check",
     "analyze": "ANALYZE=true next build",
     "all": "pnpm install && pnpm lint && pnpm build"
   },
@@ -19,7 +21,7 @@
     "@aws-amplify/ui": "^6.15.7",
     "@aws-amplify/ui-react": "^6.15.7",
     "@aws-amplify/ui-react-storage": "^3.18.4",
-    "@aws-sdk/client-cognito-identity": "^3.1161.0",
+    "@aws-sdk/client-cognito-identity": "^3.1162.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.1",
@@ -32,18 +34,12 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.7",
-    "@eslint/js": "^10.0.1",
-    "@next/eslint-plugin-next": "^16.4.6",
-    "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "eslint-config-next": "^16.4.6",
-    "eslint-import-resolver-typescript": "^4.4.5",
-    "eslint-plugin-import-x": "^4.17.1",
-    "eslint-plugin-promise": "^7.3.0",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.72.1"
+    "eslint": "^10.14.0",
+    "oxfmt": "^0.76.0",
+    "oxlint": "^1.91.0",
+    "typescript": "^7.0.2"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "plugins": ["typescript", "promise"],
+  "rules": {},
+  "ignorePatterns": [
+    "**/*.d.ts",
+    "**/*.js",
+    "node_modules/**/*",
+    "./.next/*",
+    "api/lambda/graphql/types/generated/graphql.ts"
+  ]
+}

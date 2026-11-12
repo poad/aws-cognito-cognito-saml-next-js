@@ -11,7 +11,7 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - pnpm@12.19.0
+  - pnpm@12.20.0
 
   - next@16.4.6
   - eslint-config-next@16.4.6

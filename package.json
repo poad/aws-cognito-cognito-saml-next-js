@@ -8,17 +8,16 @@
     "build": "pnpm -r build",
     "lint": "pnpm -r --if-present lint",
     "lint-fix": "pnpm -r --if-present lint-fix",
+    "format": "oxfmt --write",
+    "format:check": "oxfmt --check",
     "prebuild": "pnpm -r install"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^10.14.0",
-    "eslint-config-next": "^16.4.6",
-    "eslint-import-resolver-typescript": "^4.4.5",
-    "eslint-plugin-promise": "^7.3.0",
-    "jiti": "^2.7.0",
-    "typescript": "^6.0.3",
+    "oxfmt": "^0.76.0",
+    "oxlint": "^1.91.0",
+    "typescript": "^7.0.2",
     "typescript-eslint": "^8.72.1"
   },
   "engines": {
@@ -30,12 +29,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.16.1",
+      "version": "12.20.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.22.2",
+      "version": "^26.13.1",
       "onFail": "download"
     }
   }

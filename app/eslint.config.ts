@@ -1,8 +1,5 @@
 import { defineConfig, includeIgnoreFile } from 'eslint/config';
 import js from '@eslint/js';
-import stylistic from '@stylistic/eslint-plugin';
-import { importX } from 'eslint-plugin-import-x';
-import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import { parser } from 'typescript-eslint';
 
 import { fileURLToPath } from 'node:url';
@@ -28,7 +25,6 @@ export default defineConfig(
     ],
   },
   js.configs.recommended,
-  importX.flatConfigs.typescript,
   {
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
@@ -40,19 +36,7 @@ export default defineConfig(
       react: {
         version: '19.2',
       },
-      'import-x/internal-regex': '^~/',
-      'import-x/resolver-next': [
-        createTypeScriptImportResolver({
-          alwaysTryTypes: true,
-        }),
-      ],
     },
-    plugins: {
-      '@stylistic': stylistic,
-    },
-    rules: {
-      '@stylistic/semi': 'error',
-      '@stylistic/indent': ['error', 2],
-    },
+    rules: {},
   },
 );
