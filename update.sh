@@ -8,7 +8,7 @@ echo "${CURRENT}"
 cd "${CURRENT}" || exit
 if ! git pull --prune; then
   cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 
 cd "${CURRENT}" || exit
