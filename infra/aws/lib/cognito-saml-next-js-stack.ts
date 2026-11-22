@@ -65,6 +65,7 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
     });
 
     if (identityProviderMetadataURL) {
+      // oxlint-disable-next-line no-new
       new cognito.UserPoolIdentityProviderSaml(this, 'CognitoSamlIdPAzureAD', {
         name: 'AzureAD',
         metadata: {
@@ -251,11 +252,13 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
       }
     );
 
+    // oxlint-disable-next-line no-new
     new ssm.StringParameter(this, 'CognitoDomainUrl', {
       parameterName: `/${environment}/cognito-saml-next-js/CognitoDomainUrl`,
       stringValue: `https://${domain}.auth.${this.region}.amazoncognito.com`,
     });
 
+    // oxlint-disable-next-line no-new
     new ssm.StringParameter(this, 'CognitoAppClientIdl', {
       parameterName: `/${environment}/cognito-saml-next-js/CognitoAppClientId`,
       stringValue: client.userPoolClientId,
