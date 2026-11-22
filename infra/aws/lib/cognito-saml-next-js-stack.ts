@@ -240,6 +240,7 @@ export class CognitoSamlNextJsStack extends cdk.Stack {
       }
     );
 
+    // oxlint-disable-next-line no-new
     new cognito.CfnIdentityPoolRoleAttachment(
       this,
       'CognitoSamlIdPoolRoleAttachment',
